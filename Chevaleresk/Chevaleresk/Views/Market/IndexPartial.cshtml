@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Chevaleresk.Models.Magasin>
+
+@{ 
+    int compteur = 0;
+}
+
+@foreach (var item in Model)
+{
+    if (compteur % 4 == 0)
+    {
+        @:<tr>
+    }
+              <td class="magasin_item">
+                  <a href="@Url.Action("Details", "Market", new { id = item.Items.idItem })">
+                      <div>
+                          <img src="data:image/png;base64,@Convert.ToBase64String(item.Items.photo)" style="width:200px; height:200px; " />
+                      </div>
+
+                      <div style="background-color: #252525; max-width: 200px; display: flex; flex-direction: column; align-items: center;">
+                          <span class="texte">
+                              @Html.DisplayFor(model => item.Items.nom)
+                          </span>
+
+                          <div style="display: flex; justify-content: center; align-items: center;">
+                              <span class="texte">@Html.DisplayFor(model => item.Items.prix) <span class="goldCoins cmdIcon fa fa-coins"></span></span>
+                          </div>
+                      </div>
+                      </a>
+              </td>
+
+    compteur++;
+
+    if (compteur % 4 == 0)
+    {
+        @:</tr>
+    }
+}
+
+@if (compteur % 4 != 0)
+{
+    @:</tr>
+}

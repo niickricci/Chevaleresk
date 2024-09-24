@@ -1,0 +1,489 @@
+﻿@model Chevaleresk.Models.Magasin
+
+@{
+    ViewBag.Title = "Details";
+    Chevaleresk.Models.JoueursRepository j = new Chevaleresk.Models.JoueursRepository();
+    Chevaleresk.Models.ItemssRepository i = new Chevaleresk.Models.ItemssRepository();
+    var db = new Chevaleresk.Models.ChevalereskEntities();
+    var comments = db.Critique.Where(c => c.idItem == Model.idItem).ToList();
+    string typeArme = "";
+    if (Model.Items.typeItem == "A") { typeArme = "ARME"; }
+    if (Model.Items.typeItem == "C") { typeArme = "ARMURE"; }
+    if (Model.Items.typeItem == "P") { typeArme = "POTION"; }
+    if (Model.Items.typeItem == "E") { typeArme = "ÉLÉMENT"; }
+}
+
+<style>
+    .text {
+        color: white;
+        font-family: "Monda";
+    }
+
+    .itemName {
+        color: white;
+        font-family: "Monda";
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    .itemDescription {
+        text-decoration: none;
+        color: white;
+        font-family: "Monda";
+    }
+
+    .itemType {
+        color: white;
+        font-family: "Monda";
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .red {
+        color: #D44C4C;
+    }
+
+    .statsStars {
+        font-size: 14px;
+    }
+
+    .float-div {
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1000px;
+        margin: auto;
+        background-color: #2F2F2F;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .avgStars {
+        font-size: 20px;
+    }
+
+    .goldCoins {
+        color: gold
+    }
+
+    .disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+    .backIcon {
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+        .backIcon:hover {
+            color: white;
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+    .trashIcon {
+        display: flex;
+        justify-content: flex-start;
+        color: rgba(255,255,255,0.7);
+        font-size: 16px;
+        text-decoration: none;
+        cursor: pointer;
+        width: fit-content;
+    }
+
+        .trashIcon:hover {
+            color: #D44C4C;
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+</style>
+<a class="fa fa-arrow-left backIcon" href="@Url.Action("Index")" style="width: fit-content"></a>
+<div class="float-div">
+    <div style="display: flex; flex-direction: row; gap: 30px;">
+        <div>
+            <img src="data:image/png;base64,@Convert.ToBase64String(Model.Items.photo)" style="width:350px; height:350px; " />
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <span class="itemName">@Html.DisplayFor(model => model.Items.nom)</span>
+            <span class="itemType">@typeArme</span>
+            <br />
+            @if (Model.Items.typeItem == "A")
+            {
+                <p class="itemDescription">Description: @Html.DisplayFor(model => model.Items.Arme.description)</p>
+                <span class="itemDescription">Genre: @Html.DisplayFor(model => model.Items.Arme.genre)</span>
+                <span class="itemDescription">Efficacité: @Html.DisplayFor(model => model.Items.Arme.efficacite)</span>
+            }
+            @if (Model.Items.typeItem == "C")
+            {
+                <span class="itemDescription">Taille: @Html.DisplayFor(model => model.Items.Armure.taille)</span>
+                <span class="itemDescription">Matière: @Html.DisplayFor(model => model.Items.Armure.matiere)</span>
+            }
+            @if (Model.Items.typeItem == "P")
+            {
+                <span class="itemDescription">Effet: @Html.DisplayFor(model => model.Items.Potion.effet)</span>
+                <span class="itemDescription">Durée: @Html.DisplayFor(model => model.Items.Potion.duree) secondes</span>
+            }
+            @if (Model.Items.typeItem == "E")
+            {
+                <span class="itemDescription">Rareté: @Html.DisplayFor(model => model.Items.elements.rarete)</span>
+                <span class="itemDescription">Dangerosité: @Html.DisplayFor(model => model.Items.elements.dangerosite)</span>
+            }
+            <br />
+            <span class="itemPrix">@Html.DisplayFor(model => model.Items.prix) <span class="goldCoins cmdIcon fa fa-coins"></span></span>
+            <span class="itemStock">Stock: @Html.DisplayFor(model => model.Items.qtStock)</span>
+            <br />
+            @if (Model.Items.qtStock >= 1)
+            {
+                if (Session["playerConnected"] == null || (bool)Session["playerConnected"] == false)
+                {
+                    <button class="bouton" style="background-color: #D44C4C; width: auto;">
+                        @Html.ActionLink("Ajouter au Panier", "AjouterItemPanier", "Cart", new { area = "", id = Model.Items.idItem }, new { @class = "", style = "color: white; text-decoration: none; outline: none;  " })
+                    </button>
+                }
+                else if (Model.Items.typeItem == "E" && j.IsAlchemist(Convert.ToInt32(Session["playerID"])) != true)
+                {
+                    <button class="bouton disabled" style="background-color: #D44C4C; width: auto;" disabled>Vous n'êtes pas alchimiste</button>
+
+                }
+                else
+                {
+                    <button class="bouton" style="background-color: #D44C4C; width: auto;">
+                        @Html.ActionLink("Ajouter au Panier", "AjouterItemPanier", "Cart", new { area = "", id = Model.Items.idItem }, new { @class = "", style = "color: white; text-decoration: none; outline: none;  " })
+                    </button>
+                }
+
+            }
+            else
+            {
+                <button class="bouton disabled" style="background-color: #D44C4C; width: auto;" disabled>N/D</button>
+            }
+
+        </div>
+    </div>
+    <hr />
+    @*<label for="file">Downloading progress:</label>
+        <progress id="file" value="32" max="100"> 32% </progress>*@
+
+    <div style="display: flex; margin-top: 20px;">
+        <!------------------------------------Partial Refresh START----------------------------------------------------------->
+        <div style="display: flex; flex-direction: row; gap: 20px">
+            @**Stats Avis*@
+            <div style="display: flex; flex-direction: column; margin-right: 7%; gap: 10px;">
+                <div style="display: flex; flex-direction: row; align-content: center; gap: 10px;">
+                    <h4 class="text">Note globale</h4>
+                </div>
+                <div style="display: flex; flex-direction: row; align-content: center; gap: 10px;">
+                    @*AVG Stars*@
+                    <h5 class="text">@Math.Round(i.AvgItemReviews(Model.idItem), 1).ToString()</h5>
+                    @*AVG Stars ico*@
+                    @for (int f = 0; f < (int)Math.Floor(Math.Round(i.AvgItemReviews(Model.idItem), 1)); f++)
+                    {
+                        <span class="avgStars goldCoins fa fa-star checked"></span>
+                    }
+                    @if (i.AvgItemReviews(Model.idItem) % 1 != 0)
+                    {
+                        <span class="avgStars goldCoins fa fa-star-half"></span>
+                    }
+                    @*<div style="display: flex; flex-direction: row; align-content: center; gap: 10px;">
+                            <span class="avgStars goldCoins fa fa-star checked"></span>
+                            <span class="avgStars goldCoins fa fa-star checked"></span>
+                            <span class="avgStars goldCoins fa fa-star checked"></span>
+                            <span class="avgStars goldCoins fa fa-star checked"></span>
+                            <span class="avgStars goldCoins fa fa-star-half"></span>
+                        </div>*@
+                </div>
+                @*Number of reviews*@
+                <div style="display: flex; flex-direction: row; align-content: center; gap: 10px;">
+                    <h5 class="text">@i.TotalReviews(Model.idItem).ToString() avis</h5>
+                </div>
+                @*5 Stars*@
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: center;">
+                    <p class="text statsStars">5</p>
+                    <div class=" statsStars goldCoins fa fa-star checked" style="margin-top:3px"></div>
+                    <span><progress value="@i.TotalReviewsByStars(Model.idItem, 5)" max="@i.TotalReviews(Model.idItem)"></progress></span>
+                </div>
+                @*4 Stars*@
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: center;">
+                    <p class="text statsStars">4</p>
+                    <div class=" statsStars goldCoins fa fa-star checked" style="margin-top:3px"></div>
+                    <span><progress value="@i.TotalReviewsByStars(Model.idItem, 4)" max="@i.TotalReviews(Model.idItem)"></progress></span>
+                </div>
+                @*3 Stars*@
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: center;">
+                    <p class=" text statsStars">3</p>
+                    <div class=" statsStars goldCoins fa fa-star checked" style="margin-top:3px"></div>
+                    <span><progress value="@i.TotalReviewsByStars(Model.idItem, 3)" max="@i.TotalReviews(Model.idItem)"></progress></span>
+                </div>
+                @*2 stars*@
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: center;">
+                    <p class="text statsStars">2</p>
+                    <div class=" statsStars goldCoins fa fa-star checked" style="margin-top:3px"></div>
+                    <span><progress value="@i.TotalReviewsByStars(Model.idItem, 2)" max="@i.TotalReviews(Model.idItem)"></progress></span>
+                </div>
+                @*1 Stars*@
+                <div style="display: flex; flex-direction: row; gap: 5px; justify-content: center;">
+                    <p class="text statsStars">1</p>
+                    <div class=" statsStars goldCoins fa fa-star checked" style="margin-top:3px"></div>
+                    <span><progress value="@i.TotalReviewsByStars(Model.idItem, 1)" max="@i.TotalReviews(Model.idItem)"></progress></span>
+                </div>
+                @*Add comment*@
+
+                @if (Session["playerID"] == null)
+                {
+                    <button id="reviewBtn" class="bouton" style="background-color: #D44C4C; width: auto;" onclick="reviewForm()">
+                        Écrire un avis
+                    </button>
+                }
+                else if (!j.HasNotReviewedItem(Convert.ToInt32(Session["playerID"]), Model.idItem))
+                {
+                    <button class="bouton disabled" style="background-color: #D44C4C; width: auto;" disabled>
+                        Vous avez déjà commenté cet item
+                    </button>
+                }
+                else if (!j.HasItem(Convert.ToInt32(Session["playerID"]), Model.Items.idItem))
+                {
+                    <button class="bouton disabled" style="background-color: #D44C4C; width: auto;" disabled>
+                        Vous n'avez pas cet item
+                    </button>
+                }
+                else if (j.HasItem(Convert.ToInt32(Session["playerID"]), Model.Items.idItem) && !j.HasNotReviewedItem(Convert.ToInt32(Session["playerID"]), Model.idItem))
+                {
+                    <button class="bouton disabled" style="background-color: #D44C4C; width: auto;" disabled>
+                        Vous avez déjà commenté cet item
+                    </button>
+                }
+                else
+                {
+                    <button id="reviewBtn" class="bouton" style="background-color: #D44C4C; width: auto;">
+                        Écrire un avis
+                    </button>
+                }
+            </div>
+            @if (comments == null || comments.Count < 1)
+            {
+
+                @*Comments list:*@
+                <div style="display: flex; flex-direction: column; width: 550px">
+                    <h5 style="color: red;">@ViewBag.MsgError</h5>
+                    <h4 class="text">Commentaires:</h4>
+                    @*Each comments*@
+                    <p class="text" style="text-align: center; justify-content: center; margin-top: 30%; opacity: 0.5">
+                        Il n'y a aucun commentaires.
+                    </p>
+                </div>
+            }
+            else
+            {
+                @*Comments list:*@
+                <div style="display: flex; flex-direction: column; width: 550px;">
+                    <h4 class="text">Commentaires:</h4>
+                    @*Each comments*@
+                    @foreach (var c in comments)
+                    {
+                        <div style="display: flex; flex-direction: row; gap: 20px; border-top: solid; border-bottom: solid; padding: 10px; border-width: 1px; border-color: rgba(255,255,255,0.25)">
+                            <div style="display: flex; flex-direction: column;">
+                                <p class="text">@db.Joueurs.Where(p => p.idJoueur == c.idJoueur).Select(p => p.alias).FirstOrDefault()</p>
+                                <p class="text" style="font-size: 12px; color: rgba(255,255,255,0.5)">@DateTime.Parse(c.date.ToString()).ToString("MM-dd-yyyy")</p>
+                            </div>
+                            <div style="display: flex; flex-direction: column">
+                                <div style="display:flex; flex-direction: row; margin-top: 2px; margin-bottom: 10px;">
+                                    @switch (c.nbEtoile)
+                                    {
+                                        case 1:
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class=" fa fa-star " style="color:#2F2F2F"></span>
+                                            <span class=" fa fa-star " style="color:#2F2F2F"></span>
+                                            <span class=" fa fa-star " style="color:#2F2F2F"></span>
+                                            <span class=" fa fa-star " style="color:#2F2F2F"></span>
+                                            break;
+                                        case 2:
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class=" fa fa-star " style="color:#2F2F2F"></span>
+                                            <span class=" fa fa-star " style="color:#2F2F2F"></span>
+                                            <span class=" fa fa-star " style="color:#2F2F2F"></span>
+                                            break;
+                                        case 3:
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class=" fa fa-star " style="color:#2F2F2F"></span>
+                                            <span class=" fa fa-star " style="color:#2F2F2F"></span>
+                                            break;
+                                        case 4:
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class=" fa fa-star " style="color:#2F2F2F"></span>
+                                            break;
+                                        case 5:
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            <span class="goldCoins fa fa-star checked"></span>
+                                            break;
+
+                                    }
+                                </div>
+                                @if (c.Commentaire != "")
+                                {
+                                    <p class="text">
+                                        @c.Commentaire
+                                    </p>
+                                }
+                            </div>
+
+                            @*Delete own comment/review*@
+                            @if (Session["playerID"] != null && Convert.ToInt32(Session["playerID"]) == c.idJoueur)
+                            {
+                                <div style="display: flex; flex-direction: row; margin-left: auto;">
+                                    <a class="fa fa-trash-can trashIcon" title="Supprimer votre commentaire" href="/Market/RetirerCommentaire?idCommentaire=@c.idCommentaire" style="width: fit-content"></a>
+                                </div>
+                            }
+                            @if (Session["playerID"] != null && Convert.ToInt32(Session["playerID"]) != c.idJoueur && j.IsAdmin(Convert.ToInt32(Session["playerID"])))
+                            {
+                                <div style="display: flex; flex-direction: row; margin-left: auto;">
+                                    <a class="fa fa-trash-can trashIcon" title="Supprimer le commentaire de @j.GetAlias(c.idJoueur)" href="/Market/RetirerCommentaire?idCommentaire=@c.idCommentaire" style="width: fit-content"></a>
+                                </div>
+                            }
+                        </div>
+                    }
+                </div>
+            }
+
+        </div>
+        <!------------------------------------Partial Refresh END------------------------------------------------------------>
+    </div>
+</div>
+
+@if (Session["playerID"] != null)
+{
+
+    <div id="reviewsModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            @using (Html.BeginForm("AjouterCritique", "Market"))
+            {
+                @Html.AntiForgeryToken()
+                <div style="display: flex; flex-direction: column; gap: 15px;">
+                    <div style="display: flex; flex-direction: row;">
+                        <h2 class="text">Laissez un avis</h2>
+
+                        <span style="margin-right: 5px; " class="close">&times;</span>
+                    </div>
+                    <input type="hidden" name="idItem" value="@Model.idItem" />
+                    <input type="hidden" name="idJoueur" value="@Session["playerID"]" />
+                    <input type="hidden" name="date" value="@DateTime.Now" />
+                    <div class="rating" style="max-width:fit-content">
+                        <label>
+                            <input type="radio" name="stars" value="1" />
+                            <span class="icon">★</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="stars" value="2" />
+                            <span class="icon">★</span>
+                            <span class="icon">★</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="stars" value="3" />
+                            <span class="icon">★</span>
+                            <span class="icon">★</span>
+                            <span class="icon">★</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="stars" value="4" />
+                            <span class="icon">★</span>
+                            <span class="icon">★</span>
+                            <span class="icon">★</span>
+                            <span class="icon">★</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="stars" value="5" />
+                            <span class="icon">★</span>
+                            <span class="icon">★</span>
+                            <span class="icon">★</span>
+                            <span class="icon">★</span>
+                            <span class="icon">★</span>
+                        </label>
+                    </div>
+                    <textarea style="max-width:100%; height: 100px; font-family: 'Monda'; border-radius: 8px; " name="Commentaire" placeholder="Veuillez écrire un avis" id="Commentaire" rows="10"></textarea>
+                    <div style="display: flex; justify-content: center;">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    </div>
+                    <div style="display: flex; flex-direction: row; gap: 10px; margin-left: auto;">
+                        <button class="bouton" style="background-color: #FFF; color: #2F2F2F; max-width: 50% " type="submit">Annuler</button>
+                        <button class="bouton" style="background-color: #D44C4C; max-width: 50%" type="submit">Envoyer</button>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <div id="reviewsModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div style="display: flex; flex-direction: row;">
+                    <h2 class="text" style="margin: auto">Veuillez vous connecter</h2>
+
+                    <span style="margin-right: 5px; " class="close">&times;</span>
+                </div>
+
+                <div style="display: flex; flex-direction: row; gap: 10px; margin: auto">
+                    <button class="bouton" style="background-color: #FFF; max-width: 50% ">@Html.ActionLink("Connexion", "Login", "Accounts", new { area = "" }, new { @class = "", style = "color: #2F2F2F; text-decoration: none; outline: none;" })</button>
+                    <button class="bouton" style="background-color: #D44C4C; max-width: 50%">@Html.ActionLink("Connexion", "Register", "Accounts", new { area = "" }, new { @class = "", style = "color: white; text-decoration: none; outline: none;" })</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@section Scripts{
+    <script>
+        function resetModalContent() {
+            var radioButtons = document.getElementsByName("stars");
+            var commentTextarea = document.getElementById("Commentaire");
+
+            for (var i = 0; i < radioButtons.length; i++) {
+                radioButtons[i].checked = false;
+            }
+            commentTextarea.value = "";
+        }
+
+        var modal = document.getElementById("reviewsModal");
+        var btn = document.getElementById("reviewBtn");
+
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        span.onclick = function () {
+            modal.style.display = "none";
+            resetModalContent();
+        }
+
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                resetModalContent();
+            }
+        }
+    </script>
+}

@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Chevaleresk.Models.Items>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" style=" color: #fff;">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.qtStock)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.prix)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.photo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.typeItem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.flagDispo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.elements.rarete)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.idItem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Potion.effet)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.qtStock)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.prix)
+        </td>
+        <td>
+            <img src="data:image/png;base64,@Convert.ToBase64String(item.photo)" width="50px" height="50px" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.typeItem)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.flagDispo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.elements.rarete)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.idItem)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Potion.effet)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.idItem }) |
+            @Html.ActionLink("Details", "Details", new { id=item.idItem }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.idItem })
+        </td>
+    </tr>
+}
+
+</table>

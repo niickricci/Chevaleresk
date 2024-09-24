@@ -1,0 +1,105 @@
+﻿
+@{
+    ViewBag.Title = "Admin";
+    var pageTitle = "Administration";
+}
+<style>
+    h2 {
+        text-align: center;
+        margin: 2%;
+    }
+
+    .texte {
+        font-family: 'Monda';
+    }
+
+    .float-div {
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1000px;
+        margin: auto;
+        background-color: #2F2F2F;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .mainBackground {
+        top: 10%;
+        gap: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        max-width: 700px;
+        margin: auto;
+        background-color: #2F2F2F;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .actionBox {
+        border: 2px solid white;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-decoration: none !important;
+        transition: border-color 0.3s, color 0.3s;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .actionBox:hover {
+/*            border: 2px solid #FFA500;*/
+            border: 2px solid #D44C4C;
+            /*            color: #FFA500;*/
+            color: #D44C4C;
+            transform: scale(1.05);
+            
+        }
+
+        .actionBox:active {
+ /*           border: 2px solid #FF6347;*/
+            border: 2px solid #D44C4C;
+            /*            color: #FF6347;*/
+            color: #D44C4C;
+        }
+
+        .actionBox i {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+
+<div class="float-div">
+
+    <h2 class="texte" style="margin-top: -10px; margin-bottom: 30px;">@pageTitle</h2>
+    <div style="display: flex; flex-direction: row; gap: 20px;">
+        <a href="@Url.Action("Create","Items", null)">
+            <div class="actionBox" id="add-Items">
+                <i class="fa fa-box-open"></i>
+                <p class="texte">Ajouter un item</p>
+            </div>
+        </a>
+        <a href="Admin/Solde">
+            <div class="actionBox" id="add-Money">
+                <i class="fas fa-coins"></i>
+                <p class="texte">Modifier un solde</p>
+            </div>
+        </a>
+    </div>
+    @*<a href="Enigma/Enigmes">
+            <div class="actionBox" id="add-Questions">
+                <i class="fas fa-puzzle-piece"></i>
+                <p>Ajouter des énigmes</p>
+            </div>
+        </a>*@
+</div>

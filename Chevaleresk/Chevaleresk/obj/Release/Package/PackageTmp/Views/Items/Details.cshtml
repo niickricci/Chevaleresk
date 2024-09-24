@@ -1,0 +1,90 @@
+﻿@model Chevaleresk.Models.Items
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Items</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.qtStock)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.qtStock)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prix)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prix)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.photo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.photo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.typeItem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.typeItem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.flagDispo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.flagDispo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.elements.rarete)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.elements.rarete)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Magasin.idItem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Magasin.idItem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Potion.effet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Potion.effet)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idItem }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

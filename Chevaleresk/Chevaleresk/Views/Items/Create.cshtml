@@ -1,0 +1,258 @@
+﻿@model Chevaleresk.Models.Items
+
+
+@{
+    ViewBag.Title = "Create";
+}
+<style>
+    .backIcon {
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+        .backIcon:hover {
+            color: white;
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+</style>
+
+<div>
+    <a class="fa fa-arrow-left backIcon" href="@Url.Action("Index", "Admin")" style="width: fit-content"></a>
+</div>
+
+<div class="floating-div">
+    <p class="formLogoFont" style="margin-bottom: 7%">AJOUT D'ITEM</p>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group" style="display:flex; justify-content:center;">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.nom, new { htmlAttributes = new { @class = "form-control", placeholder = "Nom"} })
+            @Html.ValidationMessageFor(model => model.nom, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.qtStock, new { htmlAttributes = new { @class = "form-control", placeholder = "Quantité en stock", Value = "Quantité en stock" } })
+            @Html.ValidationMessageFor(model => model.qtStock, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.prix, new { htmlAttributes = new { @class = "form-control", placeholder = "Prix", Value =  "Prix"} })
+            @Html.ValidationMessageFor(model => model.prix, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            @*@Html.EditorFor(model => model.photo, new { htmlAttributes = new { @class = "form-control" } })*@
+            <div style="justify-content: center; margin: auto; width: 170px">
+                @Helper.ImageUploader(Model.idItem, "ItemLogo", "/Content/images/default_photo.jpeg", "Veuillez sélectionner une image")
+            </div>
+            @Html.ValidationMessageFor(model => model.photo, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.typeItem, new SelectList(new[]
+            {
+                new SelectListItem { Text = "Arme", Value = "A" },
+                new SelectListItem { Text = "Armure", Value = "C" },
+                new SelectListItem { Text = "Potion", Value = "P" },
+                new SelectListItem { Text = "Élément", Value = "E" }
+            }, "Value", "Text"), "Type d'item", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.typeItem, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    @*--------If Armure------------*@
+    <div id="armureTaille" class="form-group" style="display: none;">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Armure.taille, new { htmlAttributes = new { @class = "form-control", placeholder = "Taille" } })
+            @Html.ValidationMessageFor(model => model.Armure.taille, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div id="armureMatiere" class="form-group" style="display: none;">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Armure.matiere, new { htmlAttributes = new { @class = "form-control", placeholder = "Matière" } })
+            @Html.ValidationMessageFor(model => model.Armure.matiere, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    @*--------If Arme------------*@
+    <div id="armeEfficacite" class="form-group" style="display: none;">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Arme.efficacite, new { htmlAttributes = new { @class = "form-control", placeholder = "Efficacité" } })
+            @Html.ValidationMessageFor(model => model.Arme.efficacite, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div id="armeGenre" class="form-group" style="display: none;">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Arme.genre, new { htmlAttributes = new { @class = "form-control", placeholder = "Genre" } })
+            @Html.ValidationMessageFor(model => model.Arme.genre, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div id="armeDescription" class="form-group" style="display: none;">
+        <div class="col-md-10">
+            @Html.TextAreaFor(model => model.Arme.description, new { @class = "form-control", rows = "4", placeholder = "Description de l'arme" })
+            @Html.ValidationMessageFor(model => model.Arme.description, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    @*--------If Potion------------*@
+    <div id="potionType" class="form-group" style="display: none;">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Potion.typePotion, new { htmlAttributes = new { @class = "form-control", placeholder = "Type de Potion" } })
+            @Html.ValidationMessageFor(model => model.Potion.typePotion, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div id="potionEffet" class="form-group" style="display: none;">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Potion.effet, new { htmlAttributes = new { @class = "form-control", placeholder = "Effet" } })
+            @Html.ValidationMessageFor(model => model.Potion.effet, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div id="potionDuree" class="form-group" style="display: none;">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Potion.duree, new { htmlAttributes = new { @class = "form-control", placeholder = "Durée" } })
+            @Html.ValidationMessageFor(model => model.Potion.duree, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    @*--------If Element------------*@
+    <div id="elementType" class="form-group" style="display: none;">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.elements.typeElement, new { htmlAttributes = new { @class = "form-control", placeholder = "Type d'élément" } })
+            @Html.ValidationMessageFor(model => model.elements.typeElement, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div id="elementRarete" class="form-group" style="display: none;">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.elements.rarete, new { htmlAttributes = new { @class = "form-control", placeholder = "Rareté" } })
+            @Html.ValidationMessageFor(model => model.elements.rarete, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div id="elementDangerosite" class="form-group" style="display: none;">
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.elements.dangerosite, new { htmlAttributes = new { @class = "form-control", placeholder = "Dangerosité" } })
+            @Html.ValidationMessageFor(model => model.elements.dangerosite, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.flagDispo, new SelectList(new[]
+            {
+                new SelectListItem { Text = "Oui", Value = "1" },
+                new SelectListItem { Text = "Non", Value = "0" }
+            }, "Value", "Text"), "Disponible ?", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.flagDispo, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group" style="display: flex; justify-content: center;">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Ajouter l'item" class="bouton" style="background-color: #D44C4C; margin-top: 5%; display: flex; justify-content: center; margin: auto;" />
+        </div>
+    </div>
+</div>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        document.getElementById('typeItem').addEventListener('change', function () {
+            var selectedValue = this.value;
+            var armureTaille = document.getElementById('armureTaille');
+            var armureMatiere = document.getElementById('armureMatiere');
+
+            var armeEfficacite = document.getElementById('armeEfficacite');
+            var armeGenre = document.getElementById('armeGenre');
+
+            var potionType = document.getElementById('potionType');
+            var potionEffet = document.getElementById('potionEffet');
+            var potionDuree = document.getElementById('potionDuree');
+
+            var elementType = document.getElementById('elementType');
+            var elementRarete = document.getElementById('elementRarete');
+            var elementDangerosite = document.getElementById('elementDangerosite');
+
+
+            if (selectedValue === 'C') {
+                armureTaille.style.display = 'flex';
+                armureMatiere.style.display = 'flex';
+
+                armeGenre.style.display = 'none';
+                armeEfficacite.style.display = 'none';
+                armeDescription.style.display = 'none';
+
+                potionType.style.display = 'none';
+                potionEffet.style.display = 'none';
+                potionDuree.style.display = 'none';
+
+                elementType.style.display = 'none';
+                elementRarete.style.display = 'none';
+                elementDangerosite.style.display = 'none';
+            }
+            else if (selectedValue === 'A') {
+                armeGenre.style.display = 'flex';
+                armeEfficacite.style.display = 'flex';
+                armeDescription.style.display = 'flex';
+
+                armureTaille.style.display = 'none';
+                armureMatiere.style.display = 'none';
+
+                potionType.style.display = 'none';
+                potionEffet.style.display = 'none';
+                potionDuree.style.display = 'none';
+
+                elementType.style.display = 'none';
+                elementRarete.style.display = 'none';
+                elementDangerosite.style.display = 'none';
+            }
+            else if (selectedValue === 'P') {
+                potionType.style.display = 'flex';
+                potionEffet.style.display = 'flex';
+                potionDuree.style.display = 'flex';
+
+                armeGenre.style.display = 'none';
+                armeEfficacite.style.display = 'none';
+                armeDescription.style.display = 'none';
+
+                armureTaille.style.display = 'none';
+                armureMatiere.style.display = 'none';
+
+                elementType.style.display = 'none';
+                elementRarete.style.display = 'none';
+                elementDangerosite.style.display = 'none';
+            }
+            else if (selectedValue === 'E') {
+                elementType.style.display = 'flex';
+                elementRarete.style.display = 'flex';
+                elementDangerosite.style.display = 'flex';
+
+                armeGenre.style.display = 'none';
+                armeEfficacite.style.display = 'none';
+                armeDescription.style.display = 'none';
+
+                armureTaille.style.display = 'none';
+                armureMatiere.style.display = 'none';
+
+                potionType.style.display = 'none';
+                potionEffet.style.display = 'none';
+                potionDuree.style.display = 'none';
+            }
+           
+        });
+    </script>
+}
+

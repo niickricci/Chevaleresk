@@ -1,0 +1,13 @@
+﻿@helper ImageUploader(int modelId, string targetControlId, string imageUrl, string TooltipMessage = "", string ToolTipPlacement = "bottom")
+{
+    var waitingImage = "/Content/images/default_avatar.jpg";
+    <div class='imageUploader'
+         id='@modelId'
+         controlId='@targetControlId'
+         imageSrc='@imageUrl'
+         waitingImage='@waitingImage'
+         data-toggle="tooltip"
+         data-placement="@ToolTipPlacement"
+         title="@TooltipMessage">
+    </div>
+}

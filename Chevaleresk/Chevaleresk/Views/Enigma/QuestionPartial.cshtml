@@ -1,0 +1,64 @@
+﻿@model Chevaleresk.Models.Questions
+
+@{
+    ViewBag.Title = "Jouer";
+    var type = Model.type;
+
+    var random = new Random();
+    var shuffleAnswers = Model.Reponses.Where(r => r.idQuestion == Model.idQuestion).OrderBy(o => random.Next()).ToList();
+
+    var userID = Convert.ToInt32(Session["playerID"]);
+
+    var db = new Chevaleresk.Models.ChevalereskEntities();
+    var wins = 0;
+    var losses = 0;
+    double ratio = 0;
+    var totalGames = wins + losses;
+
+    if (db.Statistiques.Any(s => s.idJoueur == userID))
+    {
+        wins = db.Statistiques.Where(s => s.idJoueur == userID).FirstOrDefault().nbQuestionReussi;
+        losses = db.Statistiques.Where(s => s.idJoueur == userID).FirstOrDefault().nbQuestionEchoue;
+        totalGames = wins + losses;
+
+        if (wins == 0 && losses > 0)
+        {
+            ratio = 0;
+        }
+        if (wins > 0 && losses == 0)
+        {
+            ratio = wins * 100;
+        }
+        if (wins > 0 && losses > 0)
+        {
+            ratio = Math.Round((double)wins / totalGames * 100, 2);
+        }
+    }
+}
+<div id="enigmaStats" style="margin-top: 10px;">
+
+    <div style="display: flex; flex-direction: row; gap: 20px; opacity: 0.9; justify-content: center; text-align: center;">
+        <div class="enigmaText" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+            <span>Victoires</span>
+            <span>@wins</span>
+        </div>
+        <div class="enigmaText" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+            <span>Défaites</span>
+            <span>@losses</span>
+        </div>
+        <div class="enigmaText" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+            <span>Victoires/Défaites</span>
+            <span>@ratio%</span>
+        </div>
+    </div>
+</div>
+<hr style="border: 1px solid #D44C4C; width: auto; opacity:0.7;" />
+<span class="enigmaText text" style="display: flex; justify-content:center; font-style:italic"> @Html.DisplayFor(model => model.Categories.nomCategorie)</span>
+<span class="enigmaText text" style="margin-top: 30px;">@Html.DisplayFor(model => model.enonce)</span>
+<div style="display: flex; flex-direction: column; gap: 10px; margin-top: 20px;">
+    @*@foreach (var reponses in Model.Reponses.Where(r => r.idQuestion == Model.idQuestion).ToList())*@
+    @foreach (var reponses in shuffleAnswers)
+    {
+        <button class="boutonEnigma" style="background-color: #D44C4C;" onclick="ValidateAnswer(@Convert.ToInt32(Session["playerID"]), @reponses.idReponse, '@type')">@reponses.laReponse</button>
+    }
+</div>

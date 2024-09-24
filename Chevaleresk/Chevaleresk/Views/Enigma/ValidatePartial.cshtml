@@ -1,0 +1,70 @@
+﻿@model Chevaleresk.Models.Questions
+
+@{
+    ViewBag.Title = "Jouer";
+
+    var userID = Convert.ToInt32(Session["playerID"]);
+
+    var db = new Chevaleresk.Models.ChevalereskEntities();
+    var wins = 0;
+    var losses = 0;
+    double ratio = 0;
+    var totalGames = wins + losses;
+
+    if (db.Statistiques.Any(s => s.idJoueur == userID))
+    {
+        wins = db.Statistiques.Where(s => s.idJoueur == userID).FirstOrDefault().nbQuestionReussi;
+        losses = db.Statistiques.Where(s => s.idJoueur == userID).FirstOrDefault().nbQuestionEchoue;
+        totalGames = wins + losses;
+
+        if (wins == 0 && losses > 0)
+        {
+            ratio = 0;
+        }
+        if (wins > 0 && losses == 0)
+        {
+            ratio = wins * 100;
+        }
+        if (wins > 0 && losses > 0)
+        {
+            ratio = Math.Round((double)wins / totalGames * 100, 2);
+        }
+    }
+
+
+}
+<div id="enigmaStats" style="margin-top: 10px;">
+
+    <div style="display: flex; flex-direction: row; gap: 20px; opacity: 0.9; justify-content: center; text-align: center;">
+        <div class="enigmaText" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+            <span>Victoires</span>
+            <span>@wins</span>
+        </div>
+        <div class="enigmaText" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+            <span>Défaites</span>
+            <span>@losses</span>
+        </div>
+        <div class="enigmaText" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+            <span>Victoires/Défaites</span>
+            <span>@ratio%</span>
+        </div>
+    </div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 14px; margin-top: 20px; justify-content:center; align-content:center; margin: auto;">
+    <hr style="border: 1px solid #D44C4C; width: auto; opacity:0.7;" />
+    @if ((bool)TempData["playerWon"])
+    {
+        <p class="enigmaText title" style="margin-top: 3px;">Bonne réponse ✅</p>
+        <p class="enigmaText text">
+            Félicitation! <br />
+            @TempData["winningMessage"].ToString()
+        </p>
+        <button class="bouton" onClick="location.reload() " style="background-color: #D44C4C">Retourner au menu</button>
+    }
+    else
+    {
+        <p class="enigmaText title" style="margin-top: 3px;">Mauvaise réponse ❌</p>
+        <p class="enigmaText text">Vous avez perdu...</p>
+        <button class="bouton" onClick="location.reload() " style="background-color: #D44C4C">Retourner au menu</button>
+    }
+</div>

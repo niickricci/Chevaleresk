@@ -1,0 +1,996 @@
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll.config
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\Chevaleresk.pdb
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe.config
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\csc.rsp
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe.config
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\csi.rsp
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.AppContext.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Console.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Http.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.ValueTuple.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe.config
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\vbc.rsp
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\EntityFramework.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.Razor.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\WebGrease.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\EntityFramework.xml
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.xml
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.xml
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.xml
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.xml
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.Razor.xml
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.xml
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.xml
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.xml
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.pdb
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.AssemblyReference.cache
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CoreCompileInputs.cache
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\obj\Debug\Chevaler.CF8049B2.Up2Date
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.dll
+C:\Users\niick\Desktop\ChevalereskWebsite\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.pdb
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll.config
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.pdb
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe.config
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.rsp
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe.config
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.rsp
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.AppContext.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Console.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Http.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.ValueTuple.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe.config
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.rsp
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\WebGrease.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.xml
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.xml
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.xml
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.xml
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.xml
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.xml
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.xml
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.xml
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.xml
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.pdb
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.AssemblyReference.cache
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CoreCompileInputs.cache
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CopyComplete
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.dll
+C:\Users\niick\Desktop\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.AssemblyReference.cache
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CoreCompileInputs.cache
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.AppContext.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Console.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Http.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.ValueTuple.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\WebGrease.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CopyComplete
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.pdb
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.AssemblyReference.cache
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CoreCompileInputs.cache
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll.config
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.pdb
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe.config
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.rsp
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe.config
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.rsp
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.AppContext.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Console.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Http.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.ValueTuple.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe.config
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.rsp
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\WebGrease.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.pdb
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaler.CF8049B2.Up2Date
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (18-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.AppContext.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Console.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Http.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.ValueTuple.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\WebGrease.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.AssemblyReference.cache
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CoreCompileInputs.cache
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CopyComplete
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.pdb
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.AssemblyReference.cache
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CoreCompileInputs.cache
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll.config
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.pdb
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe.config
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.rsp
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe.config
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.rsp
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.AppContext.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Console.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Http.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.ValueTuple.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe.config
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.rsp
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\WebGrease.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.pdb
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaler.CF8049B2.Up2Date
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk (23-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.AppContext.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Console.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Http.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.ValueTuple.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\WebGrease.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.AssemblyReference.cache
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CoreCompileInputs.cache
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CopyComplete
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.pdb
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll.config
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.pdb
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe.config
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.rsp
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe.config
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.rsp
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.AppContext.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Console.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Http.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.ValueTuple.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe.config
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.rsp
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\WebGrease.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.pdb
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.AssemblyReference.cache
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CoreCompileInputs.cache
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaler.CF8049B2.Up2Date
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.dll
+C:\Users\niick\Desktop\ASP\Chevaleresk 1.1 (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.AssemblyReference.cache
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CoreCompileInputs.cache
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.AppContext.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Console.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Http.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.ValueTuple.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\WebGrease.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CopyComplete
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Sprint-2 Release (24-04-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.AssemblyReference.cache
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CoreCompileInputs.cache
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.AppContext.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Console.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Http.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.ValueTuple.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\WebGrease.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CopyComplete
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk 08-05-24\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.AssemblyReference.cache
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CoreCompileInputs.cache
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.AppContext.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Console.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Http.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.ValueTuple.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.rsp
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\WebGrease.dll
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.pdb
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CopyComplete
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll.config
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\Chevaleresk.pdb
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.exe.config
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csc.rsp
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.exe.config
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\csi.rsp
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.AppContext.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Console.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Http.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Net.Sockets.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.ValueTuple.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.exe.config
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\vbc.rsp
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\WebGrease.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.xml
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\EntityFramework.SqlServer.xml
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Helpers.xml
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Mvc.xml
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Optimization.xml
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.Razor.xml
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.xml
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\System.Web.WebPages.Razor.xml
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\Newtonsoft.Json.xml
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\Antlr3.Runtime.pdb
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.AssemblyReference.cache
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CoreCompileInputs.cache
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.csproj.CopyComplete
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.dll
+C:\Users\niick\Documents\Github\ASP.Net\Chevaleresk\Chevaleresk\Chevaleresk\obj\Debug\Chevaleresk.pdb

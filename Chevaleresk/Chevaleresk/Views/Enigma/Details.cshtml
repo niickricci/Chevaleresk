@@ -1,0 +1,42 @@
+﻿@model Chevaleresk.Models.Questions
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Questions</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.enonce)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.enonce)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Categories.nomCategorie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categories.nomCategorie)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idQuestion }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

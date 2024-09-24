@@ -1,0 +1,153 @@
+﻿@{
+    var player = (Chevaleresk.Models.Joueurs)Session["player"];
+    Chevaleresk.Models.JoueursRepository j = new Chevaleresk.Models.JoueursRepository();
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chevaleresk</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Koulen&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monda&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inder&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-header" style="z-index: 10000">
+        <div class="container">
+            @Html.ActionLink("CHEVALERESK", "Index", "Home", new { area = "" }, new { @class = "navbar-brand font-Nav-Acceuil" })
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Activer/désactiver la navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        @Html.ActionLink("Magasin", "Index", "Market", new { area = "" }, new { @class = "nav-link font-Nav" })
+                    </li>
+                    @if (Session["playerAlias"] != null && (bool)Session["playerConnected"])
+                    {
+                        <li class="nav-item">
+                            @Html.ActionLink("Enigma", "Index", "Enigma", new { area = "" }, new { @class = "nav-link font-Nav" })
+                        </li>
+                        //(bool)Session["isAlchemist"]
+                        if (j.IsAlchemist(Convert.ToInt32(Session["playerID"])))
+                        {
+                            <li class="nav-item">
+                                @Html.ActionLink("Panoramix", "Index", "Panoramix", new { area = "" }, new { @class = "nav-link font-Nav" })
+                            </li>
+                        }
+                        <li class="nav-item">
+                            @Html.ActionLink("Inventaire", "Inventory", "Accounts", new { area = "" }, new { @class = "nav-link font-Nav" })
+                        </li>
+                        <li class="nav-item">
+                            @Html.ActionLink("Panier", "Index", "Cart", new { area = "" }, new { @class = "nav-link font-Nav" })
+                        </li>
+                    }
+                </ul>
+                <div style="gap:10px; display: flex;" class="ml-auto">
+                    @if (Session["playerAlias"] != null && (bool)Session["playerConnected"])
+                    {
+
+                        <div class="menu-toggle"></div>
+                        <div class="profile">
+                            <div class="user font-Nav">
+                                <a>@Session["playerAlias"]</a>
+                                <p>Niveau: @j.GetNiveau(Convert.ToInt32(Session["playerID"])).ToString()</p>
+                                <p>Solde: @j.GetSolde(Convert.ToInt32(Session["playerID"])) <span class="goldCoins cmdIcon fa fa-coins"></span></p>
+                            </div>
+                            <div class="img-box">
+                                <img src=@Session["playerAvatar"] alt="some user image" style="width: 60px; height: 60px" ;>
+                            </div>
+                            <div class="menu">
+                                <ul>
+                                    <li>
+                                        <a area href="@Url.Action("Profile", "Accounts", new { area = "" })">
+                                            <i class="fas fa-user"></i> Mon profil
+                                        </a>
+                                    </li>
+                                    @if ((bool)Session["isAdmin"])
+                                    {
+                                        <li>
+                                            <a area href="@Url.Action("Index", "Admin", new { area = "" })">
+                                                <i class="fas fa-user-tie"></i> Administration
+                                            </a>
+                                        </li>
+                                    }
+                                    <li>
+                                        <a area href="@Url.Action("Logout", "Accounts", new { area = "" })">
+                                            <i class="fas fa-right-from-bracket"></i> Déconnexion
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <button class="bouton" style="background-color: #4B4B4B">@Html.ActionLink("Connexion", "Login", "Accounts", new { area = "" }, new { @class = "", style = "color: white; text-decoration: none; outline: none;" })</button>
+                        <button class="bouton" style="background-color: #D44C4C">@Html.ActionLink("Inscription", "Register", "Accounts", new { area = "" }, new { @class = "", style = "color: white; text-decoration: none; outline: none;" })</button>
+                    }
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container body-content" style="margin-top: 2.5%;">
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script>
+        let profile = document.querySelector('.profile');
+        let menu = document.querySelector('.menu');
+
+        profile.onclick = function () {
+            menu.classList.toggle('active');
+        }
+    </script>
+    @if (!string.IsNullOrEmpty(TempData["NotificationMessage"] as string) && !string.IsNullOrEmpty(TempData["NotificationType"] as string) && !string.IsNullOrEmpty(TempData["NotificationTitle"] as string))
+    {
+        <script>
+
+        var notificationType = '@TempData["NotificationType"]';
+        var notificationMessage = '@TempData["NotificationMessage"]';
+        var notificationTitle = '@TempData["NotificationTitle"]'
+        switch(notificationType) {
+            case 'success':
+                toastr.success(notificationMessage, notificationTitle);
+                break;
+            case 'info':
+                toastr.info(notificationMessage, notificationTitle);
+                break;
+            case 'warning':
+                toastr.warning(notificationMessage, notificationTitle);
+                break;
+            case 'error':
+                toastr.error(notificationMessage, notificationTitle);
+                break;
+            default:
+                toastr.success(notificationMessage, notificationTitle);
+                break;
+        }
+        </script>
+    }
+
+
+</body>
+</html>

@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ChevalereskModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ChevalereskEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="ajouterArme">
+      <Parameter Name="Nom" Mode="In" Type="String" />
+      <Parameter Name="qtStock" Mode="In" Type="Int32" />
+      <Parameter Name="Prix" Mode="In" Type="Int32" />
+      <Parameter Name="Photo" Mode="In" Type="Binary" />
+      <Parameter Name="Efficacite" Mode="In" Type="String" />
+      <Parameter Name="Genre" Mode="In" Type="String" />
+      <Parameter Name="Description" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ajouterArmure">
+      <Parameter Name="Nom" Mode="In" Type="String" />
+      <Parameter Name="qtStock" Mode="In" Type="Int32" />
+      <Parameter Name="Prix" Mode="In" Type="Int32" />
+      <Parameter Name="Photo" Mode="In" Type="Binary" />
+      <Parameter Name="Matière" Mode="In" Type="String" />
+      <Parameter Name="Taille" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ajouterAuPanier">
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+      <Parameter Name="idItem" Mode="In" Type="Int32" />
+      <Parameter Name="qtItem" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ajouterElement">
+      <Parameter Name="Nom" Mode="In" Type="String" />
+      <Parameter Name="qtStock" Mode="In" Type="Int32" />
+      <Parameter Name="Prix" Mode="In" Type="Int32" />
+      <Parameter Name="Photo" Mode="In" Type="Binary" />
+      <Parameter Name="Rareté" Mode="In" Type="String" />
+      <Parameter Name="Dangerosité" Mode="In" Type="String" />
+      <Parameter Name="TypeElement" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ajouterItemPanier">
+      <Parameter Name="Nom" Mode="In" Type="String" />
+      <Parameter Name="qtStock" Mode="In" Type="Int32" />
+      <Parameter Name="Prix" Mode="In" Type="Int32" />
+      <Parameter Name="Photo" Mode="In" Type="Binary" />
+      <Parameter Name="Rareté" Mode="In" Type="String" />
+      <Parameter Name="Dangerosité" Mode="In" Type="String" />
+      <Parameter Name="TypeElement" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ajouterJoueur">
+      <Parameter Name="Alias" Mode="In" Type="String" />
+      <Parameter Name="Nom" Mode="In" Type="String" />
+      <Parameter Name="Prenom" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="MotDePasse" Mode="In" Type="String" />
+      <Parameter Name="Avatar" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="ajouterPotion">
+      <Parameter Name="Nom" Mode="In" Type="String" />
+      <Parameter Name="qtStock" Mode="In" Type="Int32" />
+      <Parameter Name="Prix" Mode="In" Type="Int32" />
+      <Parameter Name="Photo" Mode="In" Type="Binary" />
+      <Parameter Name="Effet" Mode="In" Type="String" />
+      <Parameter Name="Duree" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="listeItem" ReturnType="Collection(ChevalereskModel.listeItem_Result)" />
+    <FunctionImport Name="modifierMDP">
+      <Parameter Name="email" Mode="In" Type="String" />
+      <Parameter Name="ancienMDP" Mode="In" Type="String" />
+      <Parameter Name="nouveauMDP" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="rechercheItem" ReturnType="Collection(ChevalereskModel.rechercheItem_Result)">
+      <Parameter Name="valeur" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(ChevalereskModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(ChevalereskModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="AcheterItem">
+      <Parameter Name="idItem" Mode="In" Type="Int32" />
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+      <Parameter Name="qtItem" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AjouterItemInventaire">
+      <Parameter Name="idItem" Mode="In" Type="Int32" />
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+      <Parameter Name="qtItem" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="incrementerQuantitePanier" ReturnType="Collection(Int32)">
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+      <Parameter Name="idItem" Mode="In" Type="Int32" />
+      <Parameter Name="qtIncrement" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="decrementQuantitePanier" ReturnType="Collection(Int32)">
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+      <Parameter Name="idItem" Mode="In" Type="Int32" />
+      <Parameter Name="qtIncrement" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="RetirerDuPanier">
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+      <Parameter Name="idItem" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AcheterItemsDansPanier">
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ConcocterPotion">
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+      <Parameter Name="idPotion" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="questionRandom" ReturnType="Collection(ChevalereskModel.questionRandom_Result)" />
+    <FunctionImport Name="vérifierReponse">
+      <Parameter Name="idReponse" Mode="In" Type="Int32" />
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+      <Parameter Name="estCorrect" Mode="InOut" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="MonterAlchimiste">
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="laisserUnCommentaire">
+      <Parameter Name="idItem" Mode="In" Type="Int32" />
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+      <Parameter Name="nombreEtoile" Mode="In" Type="Int32" />
+      <Parameter Name="commentaire" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="retirerCommentaire">
+      <Parameter Name="idCommentaire" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="modifierProfile">
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+      <Parameter Name="alias" Mode="In" Type="String" />
+      <Parameter Name="nom" Mode="In" Type="String" />
+      <Parameter Name="prenom" Mode="In" Type="String" />
+      <Parameter Name="mdp" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="ajouterStatsEnigma">
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+      <Parameter Name="estReussi" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="augmenterStatsEnigma">
+      <Parameter Name="idJoueur" Mode="In" Type="Int32" />
+      <Parameter Name="estReussi" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <EntitySet Name="Arme" EntityType="ChevalereskModel.Arme" />
+    <EntitySet Name="Armure" EntityType="ChevalereskModel.Armure" />
+    <EntitySet Name="Categories" EntityType="ChevalereskModel.Categories" />
+    <EntitySet Name="Critique" EntityType="ChevalereskModel.Critique" />
+    <EntitySet Name="elements" EntityType="ChevalereskModel.elements" />
+    <EntitySet Name="Items" EntityType="ChevalereskModel.Items" />
+    <EntitySet Name="Joueurs" EntityType="ChevalereskModel.Joueurs" />
+    <EntitySet Name="Potion" EntityType="ChevalereskModel.Potion" />
+    <EntitySet Name="potionConcocter" EntityType="ChevalereskModel.potionConcocter" />
+    <EntitySet Name="Questions" EntityType="ChevalereskModel.Questions" />
+    <EntitySet Name="Reponses" EntityType="ChevalereskModel.Reponses" />
+    <EntitySet Name="sysdiagrams" EntityType="ChevalereskModel.sysdiagrams" />
+    <EntitySet Name="Inventaire" EntityType="ChevalereskModel.Inventaire" />
+    <EntitySet Name="Magasin" EntityType="ChevalereskModel.Magasin" />
+    <EntitySet Name="Panier" EntityType="ChevalereskModel.Panier" />
+    <EntitySet Name="Recette" EntityType="ChevalereskModel.Recette" />
+    <EntitySet Name="Statistiques" EntityType="ChevalereskModel.Statistiques" />
+    <EntitySet Name="StatsQstScience" EntityType="ChevalereskModel.StatsQstScience" />
+    <AssociationSet Name="FK_Arme_idItem" Association="ChevalereskModel.FK_Arme_idItem">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="Arme" EntitySet="Arme" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Armure_idItem" Association="ChevalereskModel.FK_Armure_idItem">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="Armure" EntitySet="Armure" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Questions_idCategorie" Association="ChevalereskModel.FK_Questions_idCategorie">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Questions" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Critique_idItem" Association="ChevalereskModel.FK_Critique_idItem">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="Critique" EntitySet="Critique" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Critique_idJoueur" Association="ChevalereskModel.FK_Critique_idJoueur">
+      <End Role="Joueurs" EntitySet="Joueurs" />
+      <End Role="Critique" EntitySet="Critique" />
+    </AssociationSet>
+    <AssociationSet Name="FK_elements_idItem" Association="ChevalereskModel.FK_elements_idItem">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="elements" EntitySet="elements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recette_Elements_idItem" Association="ChevalereskModel.FK_Recette_Elements_idItem">
+      <End Role="elements" EntitySet="elements" />
+      <End Role="Recette" EntitySet="Recette" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Inventaire_idItem" Association="ChevalereskModel.FK_Inventaire_idItem">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="Inventaire" EntitySet="Inventaire" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Magasin_idItem" Association="ChevalereskModel.FK_Magasin_idItem">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="Magasin" EntitySet="Magasin" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Panier_idItem" Association="ChevalereskModel.FK_Panier_idItem">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="Panier" EntitySet="Panier" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Potion_idItem" Association="ChevalereskModel.FK_Potion_idItem">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="Potion" EntitySet="Potion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__potionCon__qtPot__55BFB948" Association="ChevalereskModel.FK__potionCon__qtPot__55BFB948">
+      <End Role="Joueurs" EntitySet="Joueurs" />
+      <End Role="potionConcocter" EntitySet="potionConcocter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Inventaire_idJoueur" Association="ChevalereskModel.FK_Inventaire_idJoueur">
+      <End Role="Joueurs" EntitySet="Joueurs" />
+      <End Role="Inventaire" EntitySet="Inventaire" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Panier_idJoueur" Association="ChevalereskModel.FK_Panier_idJoueur">
+      <End Role="Joueurs" EntitySet="Joueurs" />
+      <End Role="Panier" EntitySet="Panier" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Statistiques_idJoueur" Association="ChevalereskModel.FK_Statistiques_idJoueur">
+      <End Role="Joueurs" EntitySet="Joueurs" />
+      <End Role="Statistiques" EntitySet="Statistiques" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StatsQstScience_Joueurs" Association="ChevalereskModel.FK_StatsQstScience_Joueurs">
+      <End Role="Joueurs" EntitySet="Joueurs" />
+      <End Role="StatsQstScience" EntitySet="StatsQstScience" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Recette_Potions_idItem" Association="ChevalereskModel.FK_Recette_Potions_idItem">
+      <End Role="Potion" EntitySet="Potion" />
+      <End Role="Recette" EntitySet="Recette" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Reponses_idQuestion" Association="ChevalereskModel.FK_Reponses_idQuestion">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="Reponses" EntitySet="Reponses" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="listeItem_Result">
+    <Property Type="Int32" Name="idItem" Nullable="false" />
+    <Property Type="String" Name="nom" Nullable="false" MaxLength="45" />
+    <Property Type="Int32" Name="qtStock" Nullable="false" />
+    <Property Type="Int32" Name="prix" Nullable="false" />
+    <Property Type="Binary" Name="photo" Nullable="false" />
+    <Property Type="String" Name="typeItem" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="flagDispo" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="rechercheItem_Result">
+    <Property Type="Int32" Name="idItem" Nullable="false" />
+    <Property Type="String" Name="nom" Nullable="false" MaxLength="45" />
+    <Property Type="Int32" Name="qtStock" Nullable="false" />
+    <Property Type="Int32" Name="prix" Nullable="false" />
+    <Property Type="Binary" Name="photo" Nullable="false" />
+    <Property Type="String" Name="typeItem" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="flagDispo" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="questionRandom_Result">
+    <Property Type="String" Name="enonce" Nullable="false" />
+    <Property Type="String" Name="laReponse" Nullable="false" MaxLength="255" />
+  </ComplexType>
+  <EntityType Name="Arme">
+    <Key>
+      <PropertyRef Name="idItem" />
+    </Key>
+    <Property Name="idItem" Type="Int32" Nullable="false" />
+    <Property Name="efficacite" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="genre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="description" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Items" Relationship="ChevalereskModel.FK_Arme_idItem" FromRole="Arme" ToRole="Items" />
+  </EntityType>
+  <EntityType Name="Armure">
+    <Key>
+      <PropertyRef Name="idItem" />
+    </Key>
+    <Property Name="idItem" Type="Int32" Nullable="false" />
+    <Property Name="matiere" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="taille" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Items" Relationship="ChevalereskModel.FK_Armure_idItem" FromRole="Armure" ToRole="Items" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="idCategories" />
+    </Key>
+    <Property Name="idCategories" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nomCategorie" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Questions" Relationship="ChevalereskModel.FK_Questions_idCategorie" FromRole="Categories" ToRole="Questions" />
+  </EntityType>
+  <EntityType Name="Critique">
+    <Key>
+      <PropertyRef Name="idCommentaire" />
+    </Key>
+    <Property Name="idCommentaire" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idItem" Type="Int32" Nullable="false" />
+    <Property Name="Commentaire" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="nbEtoile" Type="Int32" Nullable="false" />
+    <Property Name="idJoueur" Type="Int32" Nullable="false" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Items" Relationship="ChevalereskModel.FK_Critique_idItem" FromRole="Critique" ToRole="Items" />
+    <NavigationProperty Name="Joueurs" Relationship="ChevalereskModel.FK_Critique_idJoueur" FromRole="Critique" ToRole="Joueurs" />
+  </EntityType>
+  <EntityType Name="elements">
+    <Key>
+      <PropertyRef Name="idItem" />
+    </Key>
+    <Property Name="idItem" Type="Int32" Nullable="false" />
+    <Property Name="rarete" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="dangerosite" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="typeElement" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="Items" Relationship="ChevalereskModel.FK_elements_idItem" FromRole="elements" ToRole="Items" />
+    <NavigationProperty Name="Recette" Relationship="ChevalereskModel.FK_Recette_Elements_idItem" FromRole="elements" ToRole="Recette" />
+  </EntityType>
+  <EntityType Name="Items">
+    <Key>
+      <PropertyRef Name="idItem" />
+    </Key>
+    <Property Name="idItem" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="qtStock" Type="Int32" Nullable="false" />
+    <Property Name="prix" Type="Int32" Nullable="false" />
+    <Property Name="photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="typeItem" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="flagDispo" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="Arme" Relationship="ChevalereskModel.FK_Arme_idItem" FromRole="Items" ToRole="Arme" />
+    <NavigationProperty Name="Armure" Relationship="ChevalereskModel.FK_Armure_idItem" FromRole="Items" ToRole="Armure" />
+    <NavigationProperty Name="Critique" Relationship="ChevalereskModel.FK_Critique_idItem" FromRole="Items" ToRole="Critique" />
+    <NavigationProperty Name="elements" Relationship="ChevalereskModel.FK_elements_idItem" FromRole="Items" ToRole="elements" />
+    <NavigationProperty Name="Inventaire" Relationship="ChevalereskModel.FK_Inventaire_idItem" FromRole="Items" ToRole="Inventaire" />
+    <NavigationProperty Name="Magasin" Relationship="ChevalereskModel.FK_Magasin_idItem" FromRole="Items" ToRole="Magasin" />
+    <NavigationProperty Name="Panier" Relationship="ChevalereskModel.FK_Panier_idItem" FromRole="Items" ToRole="Panier" />
+    <NavigationProperty Name="Potion" Relationship="ChevalereskModel.FK_Potion_idItem" FromRole="Items" ToRole="Potion" />
+  </EntityType>
+  <EntityType Name="Joueurs">
+    <Key>
+      <PropertyRef Name="idJoueur" />
+    </Key>
+    <Property Name="idJoueur" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="alias" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="nom" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="prenom" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="niveau" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mdp" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="estAdmin" Type="Byte" Nullable="false" />
+    <Property Name="estAlchimiste" Type="Byte" Nullable="false" />
+    <Property Name="solde" Type="Int32" Nullable="false" />
+    <Property Name="Avatar" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Critique" Relationship="ChevalereskModel.FK_Critique_idJoueur" FromRole="Joueurs" ToRole="Critique" />
+    <NavigationProperty Name="potionConcocter" Relationship="ChevalereskModel.FK__potionCon__qtPot__55BFB948" FromRole="Joueurs" ToRole="potionConcocter" />
+    <NavigationProperty Name="Inventaire" Relationship="ChevalereskModel.FK_Inventaire_idJoueur" FromRole="Joueurs" ToRole="Inventaire" />
+    <NavigationProperty Name="Panier" Relationship="ChevalereskModel.FK_Panier_idJoueur" FromRole="Joueurs" ToRole="Panier" />
+    <NavigationProperty Name="Statistiques" Relationship="ChevalereskModel.FK_Statistiques_idJoueur" FromRole="Joueurs" ToRole="Statistiques" />
+    <NavigationProperty Name="StatsQstScience" Relationship="ChevalereskModel.FK_StatsQstScience_Joueurs" FromRole="Joueurs" ToRole="StatsQstScience" />
+  </EntityType>
+  <EntityType Name="Potion">
+    <Key>
+      <PropertyRef Name="idItem" />
+    </Key>
+    <Property Name="idItem" Type="Int32" Nullable="false" />
+    <Property Name="effet" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="duree" Type="Int32" Nullable="false" />
+    <Property Name="typePotion" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Items" Relationship="ChevalereskModel.FK_Potion_idItem" FromRole="Potion" ToRole="Items" />
+    <NavigationProperty Name="Recette" Relationship="ChevalereskModel.FK_Recette_Potions_idItem" FromRole="Potion" ToRole="Recette" />
+  </EntityType>
+  <EntityType Name="potionConcocter">
+    <Key>
+      <PropertyRef Name="idJoueur" />
+    </Key>
+    <Property Name="idJoueur" Type="Int32" Nullable="false" />
+    <Property Name="qtPotionConcocter" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Joueurs" Relationship="ChevalereskModel.FK__potionCon__qtPot__55BFB948" FromRole="potionConcocter" ToRole="Joueurs" />
+  </EntityType>
+  <EntityType Name="Questions">
+    <Key>
+      <PropertyRef Name="idQuestion" />
+    </Key>
+    <Property Name="idQuestion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="enonce" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="type" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="idCategorie" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Categories" Relationship="ChevalereskModel.FK_Questions_idCategorie" FromRole="Questions" ToRole="Categories" />
+    <NavigationProperty Name="Reponses" Relationship="ChevalereskModel.FK_Reponses_idQuestion" FromRole="Questions" ToRole="Reponses" />
+  </EntityType>
+  <EntityType Name="Reponses">
+    <Key>
+      <PropertyRef Name="idReponse" />
+    </Key>
+    <Property Name="idReponse" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="laReponse" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="estBonne" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="idQuestion" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Questions" Relationship="ChevalereskModel.FK_Reponses_idQuestion" FromRole="Reponses" ToRole="Questions" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Inventaire">
+    <Key>
+      <PropertyRef Name="idJoueur" />
+      <PropertyRef Name="idItem" />
+      <PropertyRef Name="qtInventaire" />
+    </Key>
+    <Property Name="idJoueur" Type="Int32" Nullable="false" />
+    <Property Name="idItem" Type="Int32" Nullable="false" />
+    <Property Name="qtInventaire" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Items" Relationship="ChevalereskModel.FK_Inventaire_idItem" FromRole="Inventaire" ToRole="Items" />
+    <NavigationProperty Name="Joueurs" Relationship="ChevalereskModel.FK_Inventaire_idJoueur" FromRole="Inventaire" ToRole="Joueurs" />
+  </EntityType>
+  <EntityType Name="Magasin">
+    <Key>
+      <PropertyRef Name="idItem" />
+    </Key>
+    <Property Name="idItem" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Items" Relationship="ChevalereskModel.FK_Magasin_idItem" FromRole="Magasin" ToRole="Items" />
+  </EntityType>
+  <EntityType Name="Panier">
+    <Key>
+      <PropertyRef Name="idJoueur" />
+      <PropertyRef Name="idItem" />
+      <PropertyRef Name="qtItemPanier" />
+    </Key>
+    <Property Name="idJoueur" Type="Int32" Nullable="false" />
+    <Property Name="idItem" Type="Int32" Nullable="false" />
+    <Property Name="qtItemPanier" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Items" Relationship="ChevalereskModel.FK_Panier_idItem" FromRole="Panier" ToRole="Items" />
+    <NavigationProperty Name="Joueurs" Relationship="ChevalereskModel.FK_Panier_idJoueur" FromRole="Panier" ToRole="Joueurs" />
+  </EntityType>
+  <EntityType Name="Recette">
+    <Key>
+      <PropertyRef Name="Potions_idItem" />
+      <PropertyRef Name="Element_idItem" />
+      <PropertyRef Name="qtElement" />
+    </Key>
+    <Property Name="Potions_idItem" Type="Int32" Nullable="false" />
+    <Property Name="Element_idItem" Type="Int32" Nullable="false" />
+    <Property Name="qtElement" Type="Int32" Nullable="false" />
+    <Property Name="Element_idItem2" Type="Int32" />
+    <NavigationProperty Name="elements" Relationship="ChevalereskModel.FK_Recette_Elements_idItem" FromRole="Recette" ToRole="elements" />
+    <NavigationProperty Name="Potion" Relationship="ChevalereskModel.FK_Recette_Potions_idItem" FromRole="Recette" ToRole="Potion" />
+  </EntityType>
+  <EntityType Name="Statistiques">
+    <Key>
+      <PropertyRef Name="idJoueur" />
+      <PropertyRef Name="nbQuestionReussi" />
+      <PropertyRef Name="nbQuestionEchoue" />
+    </Key>
+    <Property Name="idJoueur" Type="Int32" Nullable="false" />
+    <Property Name="nbQuestionReussi" Type="Int32" Nullable="false" />
+    <Property Name="nbQuestionEchoue" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Joueurs" Relationship="ChevalereskModel.FK_Statistiques_idJoueur" FromRole="Statistiques" ToRole="Joueurs" />
+  </EntityType>
+  <EntityType Name="StatsQstScience">
+    <Key>
+      <PropertyRef Name="idJoueur" />
+      <PropertyRef Name="nbQuestionReussi" />
+    </Key>
+    <Property Name="idJoueur" Type="Int32" Nullable="false" />
+    <Property Name="nbQuestionReussi" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Joueurs" Relationship="ChevalereskModel.FK_StatsQstScience_Joueurs" FromRole="StatsQstScience" ToRole="Joueurs" />
+  </EntityType>
+  <Association Name="FK_Arme_idItem">
+    <End Type="ChevalereskModel.Items" Role="Items" Multiplicity="1" />
+    <End Type="ChevalereskModel.Arme" Role="Arme" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="idItem" />
+      </Principal>
+      <Dependent Role="Arme">
+        <PropertyRef Name="idItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Armure_idItem">
+    <End Type="ChevalereskModel.Items" Role="Items" Multiplicity="1" />
+    <End Type="ChevalereskModel.Armure" Role="Armure" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="idItem" />
+      </Principal>
+      <Dependent Role="Armure">
+        <PropertyRef Name="idItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Questions_idCategorie">
+    <End Type="ChevalereskModel.Categories" Role="Categories" Multiplicity="1" />
+    <End Type="ChevalereskModel.Questions" Role="Questions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="idCategories" />
+      </Principal>
+      <Dependent Role="Questions">
+        <PropertyRef Name="idCategorie" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Critique_idItem">
+    <End Type="ChevalereskModel.Items" Role="Items" Multiplicity="1" />
+    <End Type="ChevalereskModel.Critique" Role="Critique" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="idItem" />
+      </Principal>
+      <Dependent Role="Critique">
+        <PropertyRef Name="idItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Critique_idJoueur">
+    <End Type="ChevalereskModel.Joueurs" Role="Joueurs" Multiplicity="1" />
+    <End Type="ChevalereskModel.Critique" Role="Critique" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Joueurs">
+        <PropertyRef Name="idJoueur" />
+      </Principal>
+      <Dependent Role="Critique">
+        <PropertyRef Name="idJoueur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_elements_idItem">
+    <End Type="ChevalereskModel.Items" Role="Items" Multiplicity="1" />
+    <End Type="ChevalereskModel.elements" Role="elements" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="idItem" />
+      </Principal>
+      <Dependent Role="elements">
+        <PropertyRef Name="idItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recette_Elements_idItem">
+    <End Type="ChevalereskModel.elements" Role="elements" Multiplicity="1" />
+    <End Type="ChevalereskModel.Recette" Role="Recette" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="elements">
+        <PropertyRef Name="idItem" />
+      </Principal>
+      <Dependent Role="Recette">
+        <PropertyRef Name="Element_idItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Inventaire_idItem">
+    <End Type="ChevalereskModel.Items" Role="Items" Multiplicity="1" />
+    <End Type="ChevalereskModel.Inventaire" Role="Inventaire" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="idItem" />
+      </Principal>
+      <Dependent Role="Inventaire">
+        <PropertyRef Name="idItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Magasin_idItem">
+    <End Type="ChevalereskModel.Items" Role="Items" Multiplicity="1" />
+    <End Type="ChevalereskModel.Magasin" Role="Magasin" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="idItem" />
+      </Principal>
+      <Dependent Role="Magasin">
+        <PropertyRef Name="idItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Panier_idItem">
+    <End Type="ChevalereskModel.Items" Role="Items" Multiplicity="1" />
+    <End Type="ChevalereskModel.Panier" Role="Panier" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="idItem" />
+      </Principal>
+      <Dependent Role="Panier">
+        <PropertyRef Name="idItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Potion_idItem">
+    <End Type="ChevalereskModel.Items" Role="Items" Multiplicity="1" />
+    <End Type="ChevalereskModel.Potion" Role="Potion" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="idItem" />
+      </Principal>
+      <Dependent Role="Potion">
+        <PropertyRef Name="idItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__potionCon__qtPot__55BFB948">
+    <End Type="ChevalereskModel.Joueurs" Role="Joueurs" Multiplicity="1" />
+    <End Type="ChevalereskModel.potionConcocter" Role="potionConcocter" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Joueurs">
+        <PropertyRef Name="idJoueur" />
+      </Principal>
+      <Dependent Role="potionConcocter">
+        <PropertyRef Name="idJoueur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Inventaire_idJoueur">
+    <End Type="ChevalereskModel.Joueurs" Role="Joueurs" Multiplicity="1" />
+    <End Type="ChevalereskModel.Inventaire" Role="Inventaire" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Joueurs">
+        <PropertyRef Name="idJoueur" />
+      </Principal>
+      <Dependent Role="Inventaire">
+        <PropertyRef Name="idJoueur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Panier_idJoueur">
+    <End Type="ChevalereskModel.Joueurs" Role="Joueurs" Multiplicity="1" />
+    <End Type="ChevalereskModel.Panier" Role="Panier" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Joueurs">
+        <PropertyRef Name="idJoueur" />
+      </Principal>
+      <Dependent Role="Panier">
+        <PropertyRef Name="idJoueur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Statistiques_idJoueur">
+    <End Type="ChevalereskModel.Joueurs" Role="Joueurs" Multiplicity="1" />
+    <End Type="ChevalereskModel.Statistiques" Role="Statistiques" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Joueurs">
+        <PropertyRef Name="idJoueur" />
+      </Principal>
+      <Dependent Role="Statistiques">
+        <PropertyRef Name="idJoueur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StatsQstScience_Joueurs">
+    <End Type="ChevalereskModel.Joueurs" Role="Joueurs" Multiplicity="1" />
+    <End Type="ChevalereskModel.StatsQstScience" Role="StatsQstScience" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Joueurs">
+        <PropertyRef Name="idJoueur" />
+      </Principal>
+      <Dependent Role="StatsQstScience">
+        <PropertyRef Name="idJoueur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Recette_Potions_idItem">
+    <End Type="ChevalereskModel.Potion" Role="Potion" Multiplicity="1" />
+    <End Type="ChevalereskModel.Recette" Role="Recette" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Potion">
+        <PropertyRef Name="idItem" />
+      </Principal>
+      <Dependent Role="Recette">
+        <PropertyRef Name="Potions_idItem" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Reponses_idQuestion">
+    <End Type="ChevalereskModel.Questions" Role="Questions" Multiplicity="1" />
+    <End Type="ChevalereskModel.Reponses" Role="Reponses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="idQuestion" />
+      </Principal>
+      <Dependent Role="Reponses">
+        <PropertyRef Name="idQuestion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,315 @@
+﻿@model IEnumerable<Chevaleresk.Models.Magasin>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    .titre {
+        margin-bottom: 2%;
+        font-family: 'Monda';
+    }
+
+    .magasin_item {
+        width: 5%;
+        height: 60px;
+        padding-left: 2%;
+        color: white;
+        font-family: 'Inter';
+        font-size: 18px;
+    }
+
+    .image {
+        width: 250px;
+        height: 150px;
+    }
+
+    .goldCoins {
+        color: gold
+    }
+
+    .filtre {
+        color: white;
+        font-family: "Monda";
+        font-size: 14px;
+        font-weight: 200;
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+
+    .filtre_prix {
+        color: black;
+        font-family: "Monda";
+        font-size: 14px;
+        font-weight: 200;
+        width: 100px
+    }
+
+    .zone_principale {
+        width: 100%;
+        float: right;
+    }
+
+    #nav_filtre {
+        visibility: hidden;
+        background-color: #252525;
+        position: fixed;
+        top: 0;
+        padding-top: 90px;
+        bottom: 0;
+        left: 0px;
+        height: 100%;
+        width: 12%;
+        z-index: 999;
+        overflow-y: auto;
+    }
+
+
+
+        #nav_filtre.visible {
+            visibility: visible;
+        }
+
+
+    .magasin_item {
+        width: 5%;
+        height: 60px;
+        padding-left: 2%;
+        color: white;
+        font-family: 'Inter';
+        font-size: 18px;
+        padding-bottom: 1.5%;
+    }
+        .magasin_item a {
+            text-decoration: none;
+        }
+
+        .magasin_item:hover {
+            transform: scale(1.05); 
+            transition: transform 0.3s ease; 
+            filter:brightness(110%);
+        }
+
+    .image {
+        width: 250px;
+        height: 150px;
+    }
+
+    .goldCoins {
+        color: gold
+    }
+
+    .texte {
+        color: white;
+        font-family: 'Monda';
+    }
+
+    #appliquer_filtre {
+        position: absolute;
+        left: 10%;
+        top: 60%;
+        background-color: #D44C4C;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        border-color: transparent;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-family: 'Monda';
+    }
+
+    .filter-btn {
+        color: #D44C4C;
+        background-color: #393939;
+        border-color: #393939;
+    }
+
+        .filter-btn:hover {
+            background-color: #555;
+            border-color: #555;
+        }
+
+    .search-bar {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #f3f6f4;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.375rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        background-color: #393939;
+        border-color: transparent;
+    }
+</style>
+
+<script>
+
+    function filtre() {
+        var filtre = document.getElementById("nav_filtre");
+        var zonePrincipale = document.querySelector(".zone_principale");
+
+        if (filtre.classList.contains("visible")) {
+            filtre.classList.remove("visible");
+            zonePrincipale.style.width = "100%";
+        } else {
+            filtre.classList.add("visible");
+            zonePrincipale.style.width = "90%";
+        }
+    }
+</script>
+<div id="nav_filtre" class="texte">
+    <div>
+        <label class="filtre" for="Armes">
+            Armes
+            <input class="filtre" type="checkbox" id="cbArmes" name="typeItem" title="Armes" value="A" />
+        </label>
+    </div>
+    <div>
+        <label class="filtre" for="Armures">
+            Armures
+            <input class="filtre" type="checkbox" id="cbArmures" name="typeItem" title="Armures" value="C" />
+        </label>
+    </div>
+    <div>
+        <label class="filtre" for="Potions">
+            Potions
+            <input class="filtre" type="checkbox" id="cbPotions" name="typeItem" title="Potions" value="P" />
+        </label>
+    </div>
+    <div>
+        <label class="filtre" for="Elements">
+            Éléments
+            <input class="filtre" type="checkbox" id="cbElements" name="typeItem" title="Éléments" value="E" />
+        </label>
+    </div>
+    <div>
+
+        <label class="filtre" for="PrixMinimum">
+            Prix minimum
+            <input class="filtre_prix" type="number" id="PrixMinimum" min="0" max="10000" name="prixItem" title="Prix Minimum" />
+        </label>
+    </div>
+    <div>
+        <label class="filtre" for="PrixMaximum">
+            Prix maximum
+            <input class="filtre_prix" type="number" id="PrixMaximum" min="0" max="10000" name="prixItem" title="Prix Maximum" />
+        </label>
+        <input type="submit" id="appliquer_filtre" title="Appliquer" name="Appliquer" value="Appliquer">
+
+    </div>
+</div>
+<div class="zone_principale">
+    <div class="container" style="margin-bottom: 5%;">
+        <h2 class="titre">Magasin</h2>
+        <div class="row align-items-center">
+            <div class="col-md-1">
+                <button onclick="filtre()" class="btn btn-dark filter-btn">≡</button>
+            </div>
+            <div class="col-md-10" style="margin-left: -4%;">
+                <div class="d-flex align-items-center">
+                    <input id="searchInput" class="search-bar" placeholder="Recherche" type="text" />
+                    <button id="searchBtn" class="btn btn-dark filter-btn ml-2" style="margin-left: 0.5%;">
+                        <i class="fas fa-search" style="color:#f3f6f4"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<table id="dataItems">
+    @Html.Partial("IndexPartial", Model)
+</table>
+    </div>
+
+@section Scripts{
+    <script>
+
+    //Filtre Search
+    $(document).ready(function() {
+         $('#searchBtn').click(function() {
+            var searchStr = $('#searchInput').val();
+
+            $.ajax({
+                url: '@Url.Action("SearchItems", "Market")',
+                type: 'GET',
+                data: { searchString: searchStr },
+                success: function(data) {
+                    $('#dataItems').html(data);
+                 },
+                error: function() {
+                     /*console.log("");*/
+                 }
+            });
+        });
+    });
+
+
+
+
+    //Filtre type item
+    $(document).ready(function() {
+        $('input[type="checkbox"][name="typeItem"]').on('change', function () {
+            var selectedTypes = $('input[type="checkbox"][name="typeItem"]:checked').map(function () {
+                return $(this).val();
+            }).get();
+
+            if (selectedTypes.length === 0 || selectedTypes == null) {
+                selectedTypes = ["A", "C", "P", "E"];
+            }
+
+            $.ajax({
+                url: '@Url.Action("GetFilteredItems", "Market")',
+                type: 'GET',
+                data: { arme: selectedTypes.includes("A"), armure: selectedTypes.includes("C"), potion: selectedTypes.includes("P"), element: selectedTypes.includes("E") },
+                success: function (data) {
+                    $("#dataItems").html(data);
+                },
+                error: function () {
+                    //console.log("");
+                }
+            });
+        });
+    });
+
+
+    //Filtrer Prix
+    $(document).ready(function () {
+        function filterItems(minPrice, maxPrice) {
+            $.ajax({
+                url:  '@Url.Action("GetItemsbyPrice", "Market")',
+                type: 'GET',
+                data: {
+                    minPrice: minPrice,
+                    maxPrice: maxPrice
+                },
+                success: function (data) {
+                    $("#dataItems").html(data);
+                },
+                error: function () {
+                     //console.log("");
+                }
+            });
+        }
+
+        $('#appliquer_filtre').click(function (e) {
+            e.preventDefault(); 
+
+            var minPrice = $('#PrixMinimum').val();
+            var maxPrice = $('#PrixMaximum').val();
+
+            filterItems(minPrice, maxPrice);
+        });
+    });
+    </script>
+}

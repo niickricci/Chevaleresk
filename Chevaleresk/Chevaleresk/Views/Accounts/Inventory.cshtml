@@ -1,0 +1,204 @@
+﻿@model IEnumerable<Chevaleresk.Models.Inventaire>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    .titre {
+        margin-bottom: 2%;
+        font-family: 'Monda';
+    }
+
+    .magasin_item {
+        width: 5%;
+        height: 60px;
+        padding-left: 2%;
+        color: white;
+        font-family: 'Inter';
+        font-size: 18px;
+    }
+
+    .image {
+        width: 250px;
+        height: 150px;
+    }
+
+    .goldCoins {
+        color: gold
+    }
+
+    .filtre {
+        color: white;
+        font-family: "Monda";
+        font-size: 14px;
+        font-weight: 200;
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+
+    .filtre_prix {
+        color: black;
+        font-family: "Monda";
+        font-size: 14px;
+        font-weight: 200;
+        width: 100px
+    }
+
+    .zone_principale {
+        width: 100%;
+        float: right;
+    }
+
+    #nav_filtre {
+        visibility: hidden;
+        background-color: #252525;
+        position: fixed;
+        top: 0;
+        padding-top: 90px;
+        bottom: 0;
+        left: 0px;
+        height: 100%;
+        width: 12%;
+        z-index: 999;
+        overflow-y: auto;
+    }
+
+
+
+        #nav_filtre.visible {
+            visibility: visible;
+        }
+
+
+    .magasin_item {
+        width: 5%;
+        height: 60px;
+        padding-left: 2%;
+        color: white;
+        font-family: 'Inter';
+        font-size: 18px;
+        padding-bottom: 1.5%;
+    }
+
+    /*        .magasin_item a {
+            text-decoration: none;
+        }
+
+        .magasin_item:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+            filter: brightness(110%);
+        }*/
+
+    .image {
+        width: 250px;
+        height: 150px;
+    }
+
+    .goldCoins {
+        color: gold
+    }
+
+    .texte {
+        color: white;
+        font-family: 'Monda';
+    }
+
+    #appliquer_filtre {
+        position: absolute;
+        left: 10%;
+        top: 60%;
+        background-color: #D44C4C;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        border-color: transparent;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-family: 'Monda';
+    }
+
+    .filter-btn {
+        color: #D44C4C;
+        background-color: #393939;
+        border-color: #393939;
+    }
+
+        .filter-btn:hover {
+            background-color: #555;
+            border-color: #555;
+        }
+
+    .texte {
+        color: white;
+        font-family: 'Monda';
+    }
+
+    .search-bar {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #f3f6f4;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.375rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        background-color: #393939;
+        border-color: transparent;
+    }
+</style>
+
+<h2 class="titre">Votre inventaire</h2>
+<table id="dataItems">
+
+    @{
+        int compteur = 0;
+    }
+
+    @foreach (var item in Model)
+    {
+        if (compteur % 4 == 0)
+        {
+            @:<tr>
+            }
+            <td class="magasin_item">
+
+                @*<a href="@Url.Action("Details", "Market", new { id = item.Items.idItem })">*@
+                <div>
+                    <img src="data:image/png;base64,@Convert.ToBase64String(item.Items.photo)" style="width:200px; height:200px; " />
+                </div>
+
+                <div style="background-color: #252525; max-width: 200px; display: flex; flex-direction: column; align-items: center;">
+                    <span class="texte">
+                        @Html.DisplayFor(model => item.Items.nom)
+                    </span>
+                    <span class="texte">
+                        Qté: @Html.DisplayFor(model => item.qtInventaire)
+                    </span>
+                </div>
+                @*</a>*@
+            </td>
+
+            compteur++;
+
+            if (compteur % 4 == 0)
+            {
+            @:</tr>
+        }
+    }
+
+    @if (compteur % 4 != 0)
+    {
+        @:</tr>
+    }
+</table>

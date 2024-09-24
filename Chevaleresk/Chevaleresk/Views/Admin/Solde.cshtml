@@ -1,0 +1,292 @@
+﻿@model IEnumerable<Chevaleresk.Models.Joueurs>
+
+@{
+    ViewBag.Title = "Solde";
+}
+<style>
+    .penIcon {
+        margin-left: 20px;
+        color: white;
+        opacity: 0.4;
+    }
+
+        .penIcon:hover {
+            color: #D44C4C;
+            opacity: 1;
+        }
+
+    .backIcon {
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+        .backIcon:hover {
+            color: white;
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+            text-decoration: none;
+        }
+
+    .texte {
+        font-family: 'Monda';
+    }
+
+    .float-div {
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1000px;
+        margin: auto;
+        background-color: #2F2F2F;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .searchContainer {
+        box-sizing: border-box;
+        position: relative;
+    }
+
+        .searchContainer input[type="text"] {
+            width: 100%;
+            padding: 6px 20px 6px 40px;
+            font-size: 16px;
+            background-color: white;
+            border: none;
+            outline: none;
+            border-radius: 8px;
+        }
+
+        .searchContainer .fa-search {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+            color: #666;
+        }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+    }
+
+    .modal-content {
+        margin: 15% auto;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+        a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+    .filtres {
+        /*        display: grid;
+        grid-template-columns: repeat(3, 33%);*/
+        align-items: center;
+        /*      gap: 15px;*/
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    #searchMode {
+        border-radius: 8px;
+        /*        background-color: #2F2F2F;*/
+        background-color: #D44C4C;
+        /*        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+        color: white;
+        padding: 6px 10px;
+        border: none;
+        outline: none;
+    }
+
+        #searchMode option {
+            background-color: whitesmoke;
+            color: #2F2F2F;
+        }
+
+    #btnEnregistrer {
+        background-color: #D44C4C;
+        width: 150px;
+        margin-left: 5%;
+    }
+</style>
+
+
+
+<div class="float-div" style="margin-top: 15px;">
+    <div style="display: flex; flex-direction: row; gap: 10px; margin-right: auto;">
+        <div>
+            <a class="fa fa-arrow-left backIcon" href="@Url.Action("Index", "Admin")" style="width: fit-content" title="Retour vers le menu admin"></a>
+        </div>
+    </div>
+
+    <h1 style="margin-bottom: 30px;" class="texte">Modification de soldes</h1>
+
+    @*<div class="filtres">*@
+    <div style="display: flex; flex-direction: row; gap: 10px; justify-content: flex-end; margin-right: auto;">
+        <div class="searchContainer">
+            <input type="text" id="elementSearch" oninput="searchElement()" placeholder="Recherche..." />
+            <i class="fa fa-search"></i>
+        </div>
+        <div>
+            <select id="searchMode" onchange="searchElement()"
+                    title="Filtre de recherche">
+                <option value="alias">Alias</option>
+                <option value="prenom">Prénom</option>
+                <option value="nom">Nom</option>
+            </select>
+        </div>
+    </div>
+
+    @*</div>*@
+    <hr />
+
+    <table class="table" style="color: #fff; text-align: right;">
+        <tr>
+            <th>
+                <p class="texte">Alias</p>
+            </th>
+            <th>
+                <p class="texte">Prénom</p>
+            </th>
+            <th>
+                <p class="texte">Nom</p>
+            </th>
+            <th>
+                <p class="texte">Solde</p>
+            </th>
+        </tr>
+        @foreach (var joueur in Model)
+        {
+            <tr class="joueur-container texte" style="text-align: right;">
+                <td>
+                    @Html.DisplayFor(j => joueur.alias)
+                </td>
+                <td>
+                    @Html.DisplayFor(j => joueur.prenom)
+                </td>
+                <td>
+                    @Html.DisplayFor(j => joueur.nom)
+                </td>
+                <td>
+
+                    @(joueur.solde)
+                    <i class="goldCoins cmdIcon fa fa-coins" />
+                    <a title="Modifier le solde de @joueur.alias"
+                       href="#"
+                       onclick="ouvrirModal('@joueur.idJoueur', '@joueur.solde')"><span class="penIcon cmdIcon fa fa-pen" /></a>
+
+                </td>
+            </tr>
+        }
+    </table>
+    @*<div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fermerModal()" title="Annuler">&times;</span>
+            <form id="formulaire">
+                <label for="nouveauSolde">Nouveau solde:</label>
+                <input type="number" id="nouveauSolde" name="nouveauSolde" min="0" required>
+                <button type="submit" id="btnEnregistrer" class="bouton" style="">Enregistrer</button>
+            </form>
+        </div>
+    </div>*@
+
+    <div id="modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div style="display: flex; flex-direction: row;">
+                    <h4 class="text" style="margin: auto">Modification de solde</h4>
+
+                    <span style="margin-right: 5px; " class="close" onclick="fermerModal()" title="Annuler">&times;</span>
+                </div>
+
+                <div style="display: flex; flex-direction: row; gap: 10px; margin: auto">
+                    <form id="formulaire" style="display: flex; flex-direction: column; gap: 10px; margin: auto">
+                        <label for="nouveauSolde">Nouveau solde:</label>
+                        <div style="display: flex; flex-direction: row; gap: 10px;">
+                            <input type="number" id="nouveauSolde" name="nouveauSolde" min="0" required>
+                            <button type="submit" id="btnEnregistrer" class="bouton">Enregistrer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function ouvrirModal(joueurId, solde) {
+        document.getElementById("modal").style.display = "block";
+        document.getElementById("modal").setAttribute("data-joueur-id", joueurId);
+        document.getElementById("nouveauSolde").value = solde;
+    }
+
+    function fermerModal() {
+        document.getElementById("modal").style.display = "none";
+    }
+
+    document.getElementById("formulaire").addEventListener("submit", function (event) {
+        event.preventDefault();
+        var joueurId = document.getElementById("modal").getAttribute("data-joueur-id");
+        var nouveauSolde = document.getElementById("nouveauSolde").value;
+
+        $.ajax({
+            url: '@Url.Action("AugmenterSolde", "Admin")',
+            type: 'GET',
+            data: { idJoueur: Number.parseInt(joueurId), nouveauSolde: Number.parseInt(nouveauSolde) },
+            success: function (result) {
+
+            },
+            error: function () {
+
+            }
+        });
+        location.reload()
+    });
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    function searchElement() {
+        var searchText = document.getElementById("elementSearch").value.toLowerCase().trim();
+        var searchMode = document.getElementById("searchMode").value;
+        var joueurs = document.querySelectorAll('.joueur-container');
+
+        joueurs.forEach(function (joueur) {
+            var textToSearch = '';
+            if (searchMode === 'alias') {
+                textToSearch = joueur.querySelectorAll('td')[0].innerText.toLowerCase();
+            } else if (searchMode === 'prenom') {
+                textToSearch = joueur.querySelectorAll('td')[1].innerText.toLowerCase();
+            } else if (searchMode === 'nom') {
+                textToSearch = joueur.querySelectorAll('td')[2].innerText.toLowerCase();
+            }
+
+            if (textToSearch.includes(searchText)) {
+                joueur.style.display = "table-row";
+            } else {
+                joueur.style.display = "none";
+            }
+        });
+    }
+
+</script>

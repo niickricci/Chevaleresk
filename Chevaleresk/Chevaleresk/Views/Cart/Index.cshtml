@@ -1,0 +1,228 @@
+﻿@model IEnumerable<Chevaleresk.Models.Panier>
+
+@{
+    ViewBag.Title = "Panier d'achat";
+    int total = 0;
+}
+
+<style>
+
+    .table-container {
+        max-height: 500px;
+        overflow-y: auto;
+    }
+
+
+        .table-container::-webkit-scrollbar {
+            /*width: 8px*/
+            display: none;
+        }
+
+        .table-container::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 5px;
+            padding-left: 20px;
+        }
+
+        .table-container::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 5px;
+        }
+
+            .table-container::-webkit-scrollbar-thumb:hover {
+                background: #555;
+            }
+
+    td {
+        border-bottom: none;
+    }
+
+    .pageTitle {
+        font-size: 48px;
+        padding-left: 2ch;
+        padding-top: 10px;
+        font-family: 'Monda';
+    }
+
+    .pageText {
+        font-size: 28px;
+        padding-left: 2ch;
+        padding-top: 10px;
+        font-family: 'Monda';
+    }
+
+    .cmdIcon {
+        text-decoration: none;
+        color: black;
+    }
+
+    .goldCoins {
+        color: gold;
+    }
+
+    .upper {
+        text-transform: uppercase;
+    }
+
+    .whiteText {
+        color: #FFFFFF;
+    }
+
+    .lightGray {
+        color: #E6E6E6;
+    }
+
+    .darkGray {
+        color: #CFCFCF;
+    }
+
+    .backgroundRectangle {
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1070px;
+        margin: auto;
+        background-color: #2F2F2F; /* Semi-transparent white background */
+        padding: 15px; /* Padding for content inside the div */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add box shadow for depth */
+    }
+
+    hr {
+        color: #CFCFCF;
+    }
+
+    .smallFont {
+        font-size: 12px;
+    }
+
+    .mediumFont {
+        font-size: 16px;
+    }
+
+    .largeFont {
+        font-size: 18px;
+    }
+
+    .addRemoveBtn:hover {
+        color: #D44C4C;
+    }
+
+    .disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+</style>
+
+
+<div class="backgroundRectangle">
+    <h2 class="pageTitle whiteText">@ViewBag.Title</h2>
+    <h5 style="color: red;">@ViewBag.MsgError</h5>
+    @if (Model.Count() > 0)
+    {
+        <div style="width:600px; margin: 0 auto">
+            <table class="table">
+                <tr class="upper smallFont lightGray">
+                    <th>
+                        Item
+                    </th>
+                    <th></th>
+                    <th style="text-align:center">
+                        Quantité
+                    </th>
+                    <th style="text-align:right">
+                        Total
+                    </th>
+                </tr>
+            </table>
+            <div class="table-container">
+                <table class="table">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <img src="data:image/png;base64,@Convert.ToBase64String(item.Items.photo)" width="100px" height="100px" />
+                            </td>
+                            <td>
+                                <div class="whiteText largeFont">
+                                    @Html.DisplayFor(modelItem => item.Items.nom)
+                                </div>
+                                @if (item.Items.typeItem == "C")
+                                {
+                                    //foreach (var armureItem in item.Items.Armure)
+                                    //{
+                                    <div class="upper lightGray smallFont">
+                                        @Html.DisplayFor(modelItem => item.Items.Armure.taille)
+                                    </div>
+                                    //}
+                                }
+                                <div class="smallFont">
+                                    <span class="lightGray">@Html.DisplayFor(modelItem => item.Items.prix)</span>
+                                    <span class="goldCoins cmdIcon fa fa-coins"></span>
+                                </div>
+                            </td>
+                            <td style="text-align:center">
+                                <div>
+                                    @if (item.qtItemPanier < 2)
+                                    {
+                                        <span><a href="/Cart/DeleteItem/@item.idItem" class="addRemoveBtn whiteText cmdIcon fa fa-minus" title="Retirer un item"></a></span>
+                                    }
+                                    else
+                                    {
+                                        <span><a href="/Cart/RemoveItem/@item.idItem" class="addRemoveBtn whiteText cmdIcon fa fa-minus" title="Retirer un item"></a></span>
+                                    }
+                                    <span class="whiteText" style="margin-left:1ch; margin-right:1ch">@Html.DisplayFor(modelItem => item.qtItemPanier)</span>
+                                    @if (item.qtItemPanier == item.Items.qtStock)
+                                    {
+                                        <span><a class="addRemoveBtn whiteText cmdIcon fa fa-plus disabled" title="Ajouter un item"></a></span>
+                                    }
+                                    else
+                                    {
+                                        <span><a href="/Cart/AddItem/@item.idItem" class="addRemoveBtn whiteText cmdIcon fa fa-plus" title="Ajouter un item"></a></span>
+                                    }
+                                </div>
+                                <div>
+                                    <span></span>
+                                    <span><a href="/Cart/DeleteItem/@item.idItem" class="addRemoveBtn darkGray upper smallFont">Retirer</a></span>
+                                    <span></span>
+                                </div>
+                            </td>
+                            <td class="mediumFont" style="text-align:right">
+                                <span class="whiteText">@(item.qtItemPanier * item.Items.prix)</span>
+                                <span class="goldCoins cmdIcon fa fa-coins"></span>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+
+            <hr />
+            <table class="table">
+                <tr class="whiteText mediumFont">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align:right">
+                        @foreach (var i in Model)
+                        {
+                            total += (i.Items.prix * i.qtItemPanier);
+                        }
+                        <span>@total</span>
+                        <span class="goldCoins cmdIcon fa fa-coins"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align: right"><button class="bouton" style="background-color: #D44C4C">@Html.ActionLink("Acheter", "AcheterItems", "Cart", new { area = "" }, new { @class = "", style = "color: white; text-decoration: none; outline: none;  " })</button></td>
+                </tr>
+            </table>
+        </div>
+    }
+    else
+    {
+        <span class="pageText whiteText">Votre panier est vide</span>
+    }
+</div>

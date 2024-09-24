@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Chevaleresk.Models.Potion>
+
+@{
+    Chevaleresk.Models.ChevalereskEntities DB = new Chevaleresk.Models.ChevalereskEntities();
+    var recettes = DB.Recette.ToList();
+    var elements = DB.elements.ToList();
+    Chevaleresk.Models.JoueursRepository j = new Chevaleresk.Models.JoueursRepository();
+}
+
+@foreach (var potion in Model)
+{
+    Chevaleresk.Models.elements e1;
+    Chevaleresk.Models.elements e2;
+    bool elementsValide = false;
+
+    var recettePotion = recettes.Where(r => r.Potions_idItem == potion.idItem).FirstOrDefault();
+    try
+    {
+        e1 = DB.elements.Where(e => e.idItem == recettePotion.Element_idItem).FirstOrDefault();
+        e2 = DB.elements.Where(e => e.idItem == recettePotion.Element_idItem2).FirstOrDefault();
+    }
+    catch
+    {
+        e1 = null;
+        e2 = null;
+    }
+
+
+    <div id="info-potion" style="display: flex; flex-direction: column; gap: 20px; max-width:400px">
+        <h2 class="texte" style="display: flex; justify-content: center; align-items: center; border-bottom: 2px solid #D44C4C; padding-bottom: 5px; ">@potion.Items.nom</h2>
+        <h4 class="texte">Effet: @potion.effet</h4>
+        <h4 class="texte">Durée: @potion.duree secondes</h4>
+        @if (e1 != null || e2 != null)
+        {
+
+            var qtE1 = j.GetQteItemInventaire((Convert.ToInt32(Session["playerID"])), e1.idItem);
+            var qtE2 = j.GetQteItemInventaire((Convert.ToInt32(Session["playerID"])), e2.idItem);
+            elementsValide = qtE1 >= recettePotion.qtElement && qtE2 >= recettePotion.qtElement ? true : false;
+
+            <div style="display: flex; flex-direction: row;gap:10px; justify-content: center;">
+                <div>
+                    <img src="data:image/png;base64,@Convert.ToBase64String(e1.Items.photo)" style="width:120px; height:120px;" alt="@e1.Items.nom" />
+                    <div style="background-color: #252525; max-width: 120px; display: flex; flex-direction: column; align-items: center;">
+                        <span class="texte">
+                            @Html.DisplayFor(model => e1.Items.nom)
+                        </span>
+
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <span class="texte">@j.GetQteItemInventaire((Convert.ToInt32(Session["playerID"])), e1.idItem)/@Html.DisplayFor(model => recettePotion.qtElement)</span>
+                        </div>
+                    </div>
+                </div>
+                <span> + </span>
+                <div>
+                    <img src="data:image/png;base64,@Convert.ToBase64String(e2.Items.photo)" style="width:120px; height:120px;" alt="@e2.Items.nom" />
+                    <div style="background-color: #252525; max-width: 120px; display: flex; flex-direction: column; align-items: center;">
+                        <span class="texte">
+                            @Html.DisplayFor(model => e2.Items.nom)
+                        </span>
+
+                        <div style="display: flex; justify-content: center; align-items: center;">
+
+                            <span class="texte">@j.GetQteItemInventaire((Convert.ToInt32(Session["playerID"])), e2.idItem)/@Html.DisplayFor(model => recettePotion.qtElement)</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        }
+
+        @if (elementsValide)
+        {
+            <a href="/Panoramix/ConcocterPotion?id=@potion.idItem" class="bouton" style="padding-top:5px; padding-bottom:5px; background-color: #D44C4C; text-decoration: none; color: inherit;">Concocter</a>
+        }
+        else
+        {
+            <span style=" font-family: 'Monda'; text-align: center; padding-top: 5px; color: red; font-size: 14px">Vous n'avez pas le ou les éléments nécessaires pour concocter.</span>
+            <a class="bouton disabled" style="padding-top:5px; padding-bottom:5px; background-color: #D44C4C; text-decoration: none; color: inherit;" disabled>Concocter</a>
+        }
+
+    </div>
+}

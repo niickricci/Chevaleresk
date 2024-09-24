@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="400dd633485a482f9c47fbb84bfd6d24" Name="Diagram1" ZoomLevel="59">
+        <EntityTypeShape EntityType="ChevalereskModel.Arme" Width="1.5" PointX="3" PointY="11.875" />
+        <EntityTypeShape EntityType="ChevalereskModel.Armure" Width="1.5" PointX="3" PointY="6.625" />
+        <EntityTypeShape EntityType="ChevalereskModel.Categories" Width="1.5" PointX="5.75" PointY="1.625" />
+        <EntityTypeShape EntityType="ChevalereskModel.Critique" Width="1.5" PointX="6" PointY="8.625" />
+        <EntityTypeShape EntityType="ChevalereskModel.elements" Width="1.5" PointX="3" PointY="25.75" />
+        <EntityTypeShape EntityType="ChevalereskModel.Items" Width="1.5" PointX="0.75" PointY="11" />
+        <EntityTypeShape EntityType="ChevalereskModel.Joueurs" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ChevalereskModel.Potion" Width="1.5" PointX="3" PointY="20.625" />
+        <EntityTypeShape EntityType="ChevalereskModel.potionConcocter" Width="1.5" PointX="6" PointY="15" />
+        <EntityTypeShape EntityType="ChevalereskModel.Questions" Width="1.5" PointX="8" PointY="1.25" />
+        <EntityTypeShape EntityType="ChevalereskModel.Reponses" Width="1.5" PointX="10.25" PointY="1.375" />
+        <EntityTypeShape EntityType="ChevalereskModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="1.125" />
+        <EntityTypeShape EntityType="ChevalereskModel.Inventaire" Width="1.5" PointX="3" PointY="14.875" />
+        <EntityTypeShape EntityType="ChevalereskModel.Magasin" Width="1.5" PointX="3" PointY="23.625" />
+        <EntityTypeShape EntityType="ChevalereskModel.Panier" Width="1.5" PointX="6" PointY="11.875" />
+        <EntityTypeShape EntityType="ChevalereskModel.Recette" Width="1.5" PointX="5.25" PointY="23.25" />
+        <EntityTypeShape EntityType="ChevalereskModel.Statistiques" Width="1.5" PointX="6" PointY="5.375" />
+        <EntityTypeShape EntityType="ChevalereskModel.StatsQstScience" Width="1.5" PointX="6" PointY="17.375" />
+        <AssociationConnector Association="ChevalereskModel.FK_Arme_idItem" />
+        <AssociationConnector Association="ChevalereskModel.FK_Armure_idItem" />
+        <AssociationConnector Association="ChevalereskModel.FK_Questions_idCategorie" />
+        <AssociationConnector Association="ChevalereskModel.FK_Critique_idItem" />
+        <AssociationConnector Association="ChevalereskModel.FK_Critique_idJoueur" />
+        <AssociationConnector Association="ChevalereskModel.FK_elements_idItem" />
+        <AssociationConnector Association="ChevalereskModel.FK_Recette_Elements_idItem" />
+        <AssociationConnector Association="ChevalereskModel.FK_Inventaire_idItem" />
+        <AssociationConnector Association="ChevalereskModel.FK_Magasin_idItem" />
+        <AssociationConnector Association="ChevalereskModel.FK_Panier_idItem" />
+        <AssociationConnector Association="ChevalereskModel.FK_Potion_idItem" />
+        <AssociationConnector Association="ChevalereskModel.FK__potionCon__qtPot__55BFB948" />
+        <AssociationConnector Association="ChevalereskModel.FK_Inventaire_idJoueur" />
+        <AssociationConnector Association="ChevalereskModel.FK_Panier_idJoueur" />
+        <AssociationConnector Association="ChevalereskModel.FK_Statistiques_idJoueur" />
+        <AssociationConnector Association="ChevalereskModel.FK_StatsQstScience_Joueurs" />
+        <AssociationConnector Association="ChevalereskModel.FK_Recette_Potions_idItem" />
+        <AssociationConnector Association="ChevalereskModel.FK_Reponses_idQuestion" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

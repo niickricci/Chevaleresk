@@ -1,0 +1,172 @@
+﻿@model IEnumerable<Chevaleresk.Models.Questions>
+
+@{
+    ViewBag.Title = "Index";
+}
+<style>
+    .titre {
+        margin-bottom: 2%;
+    }
+
+    .float-div {
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1000px;
+        margin: auto;
+        background-color: #2F2F2F;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .boutonEnigma {
+        color: white;
+        background-color: #2F2F2F;
+        text-align: center;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-family: 'Monda', sans-serif;
+        /*        font-weight: bold;*/
+        border-color: transparent;
+        border-style: solid;
+    }
+
+        .boutonEnigma:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+            filter: brightness(110%);
+        }
+
+    .enigmaText {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        font-family: 'Monda';
+    }
+
+    .text {
+        font-size: 18px;
+        color: white;
+    }
+
+    .title {
+        font-size: 32px;
+        color: white;
+    }
+</style>
+<div class="float-div">
+    @{
+        var userID = Convert.ToInt32(Session["playerID"]);
+
+        var db = new Chevaleresk.Models.ChevalereskEntities();
+        var wins = 0;
+        var losses = 0;
+        double ratio = 0;
+        var totalGames = wins + losses;
+
+        if (db.Statistiques.Any(s => s.idJoueur == userID))
+        {
+            wins = db.Statistiques.Where(s => s.idJoueur == userID).FirstOrDefault().nbQuestionReussi;
+            losses = db.Statistiques.Where(s => s.idJoueur == userID).FirstOrDefault().nbQuestionEchoue;
+            totalGames = wins + losses;
+
+            if (wins == 0 && losses > 0)
+            {
+                ratio = 0;
+            }
+            if (wins > 0 && losses == 0)
+            {
+                ratio = wins * 100;
+            }
+            if (wins > 0 && losses > 0)
+            {
+                ratio = Math.Round((double)wins / totalGames * 100, 2);
+            }
+        }
+
+    }
+
+
+    @*<h2 style=" font-size: 48px">Panoramix</h2>*@
+    @*<h5 style="color: red; margin-bottom: 20px;">@ViewBag.MsgError</h5>*@
+    <h4 class="enigmaText title" style="font-size: 34px;" data-tooltip="Chaque question est rémunérée en fonction de sa difficulté :
+- 50 pièces pour une question facile
+- 100 pièces pour une question de difficulté moyenne
+- 200 pièces pour une question difficile" data-tooltip-location="right">
+        Enigma
+    </h4>
+    <div id="dataEnigma" style="margin-top: 5px;">
+        <div id="enigmaStats" style="margin-top: 10px;">
+
+            <div style="display: flex; flex-direction: row; gap: 20px; opacity: 0.9; justify-content: center; text-align: center;">
+                <div class="enigmaText" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+                    <span>Victoires</span>
+                    <span>@wins</span>
+                </div>
+                <div class="enigmaText" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+                    <span>Défaites</span>
+                    <span>@losses</span>
+                </div>
+                <div class="enigmaText" style="display: flex; flex-direction: column; justify-content: center; text-align: center;">
+                    <span>Victoires/Défaites</span>
+                    <span>@ratio%</span>
+                </div>
+            </div>
+        </div>
+        <hr style="border: 1px solid #D44C4C; width: auto; opacity:0.7;" />
+        <span class="enigmaText text fade-effect" style="margin-top: 30px;">Veuillez choisir une difficulté avant de commencer à jouer:</span>
+
+        <div style="display: flex; margin: auto; flex-direction:column;justify-content:center; align-content:center; gap: 10px; margin-top:25px;">
+            <button class="boutonEnigma" style="border-width:4px; border-color: #21BB77;" onclick="choisirDifficulte('F')">Facile</button>
+            <button class="boutonEnigma" style="border-width: 4px; border-color: #E4D376;" onclick="choisirDifficulte('M')">Moyen</button>
+            <button class="boutonEnigma" style="border-width: 4px; border-color: #D44C4C; " onclick="choisirDifficulte('D')">Difficile</button>
+            <button class="boutonEnigma" style="border-width: 4px; border-color: #fff;" onclick="choisirDifficulte('R')">Aléatoire</button>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+
+
+        function choisirDifficulte(id) {
+        $.ajax({
+            url: '@Url.Action("GetEnigmaQuestion", "Enigma")',
+            type: 'GET',
+            data: {
+                type: id,
+            },
+            success: function(data) {
+                $("#dataEnigma").html(data);
+            },
+            error: function() {
+            }
+        });
+        };
+
+        function ValidateAnswer(playerId, answerId, type) {
+
+        $.ajax({
+            url: '@Url.Action("ValidateEnigmaQuestion", "Enigma")',
+            type: 'GET',
+            data: {
+                idJoueur: playerId,
+                idReponse: answerId,
+                typeQuestion: type,
+            },
+            success: function(data) {
+                $("#dataEnigma").html(data);
+            },
+            error: function() {
+            }
+        });
+        };
+
+    </script>
+}

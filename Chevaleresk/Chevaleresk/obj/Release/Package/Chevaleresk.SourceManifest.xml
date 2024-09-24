@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\niick\Documents\ASP.NET Projects\Chevaleresk Release Azure (15-05-24)\Chevaleresk\Chevaleresk\Chevaleresk\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

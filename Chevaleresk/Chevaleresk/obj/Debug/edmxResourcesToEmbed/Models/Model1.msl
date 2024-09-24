@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ChevalereskModelStoreContainer" CdmEntityContainer="ChevalereskEntities">
+    <FunctionImportMapping FunctionImportName="ajouterArme" FunctionName="ChevalereskModel.Store.ajouterArme" />
+    <FunctionImportMapping FunctionImportName="ajouterArmure" FunctionName="ChevalereskModel.Store.ajouterArmure" />
+    <FunctionImportMapping FunctionImportName="ajouterAuPanier" FunctionName="ChevalereskModel.Store.ajouterAuPanier" />
+    <FunctionImportMapping FunctionImportName="ajouterElement" FunctionName="ChevalereskModel.Store.ajouterElement" />
+    <FunctionImportMapping FunctionImportName="ajouterItemPanier" FunctionName="ChevalereskModel.Store.ajouterItemPanier" />
+    <FunctionImportMapping FunctionImportName="ajouterJoueur" FunctionName="ChevalereskModel.Store.ajouterJoueur" />
+    <FunctionImportMapping FunctionImportName="ajouterPotion" FunctionName="ChevalereskModel.Store.ajouterPotion" />
+    <FunctionImportMapping FunctionImportName="listeItem" FunctionName="ChevalereskModel.Store.listeItem">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ChevalereskModel.listeItem_Result">
+          <ScalarProperty Name="idItem" ColumnName="idItem" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="qtStock" ColumnName="qtStock" />
+          <ScalarProperty Name="prix" ColumnName="prix" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+          <ScalarProperty Name="typeItem" ColumnName="typeItem" />
+          <ScalarProperty Name="flagDispo" ColumnName="flagDispo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="modifierMDP" FunctionName="ChevalereskModel.Store.modifierMDP" />
+    <FunctionImportMapping FunctionImportName="rechercheItem" FunctionName="ChevalereskModel.Store.rechercheItem">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ChevalereskModel.rechercheItem_Result">
+          <ScalarProperty Name="idItem" ColumnName="idItem" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="qtStock" ColumnName="qtStock" />
+          <ScalarProperty Name="prix" ColumnName="prix" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+          <ScalarProperty Name="typeItem" ColumnName="typeItem" />
+          <ScalarProperty Name="flagDispo" ColumnName="flagDispo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="ChevalereskModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="ChevalereskModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="ChevalereskModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="ChevalereskModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ChevalereskModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="ChevalereskModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ChevalereskModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="ChevalereskModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="ChevalereskModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="AcheterItem" FunctionName="ChevalereskModel.Store.AcheterItem" />
+    <FunctionImportMapping FunctionImportName="AjouterItemInventaire" FunctionName="ChevalereskModel.Store.AjouterItemInventaire" />
+    <FunctionImportMapping FunctionImportName="incrementerQuantitePanier" FunctionName="ChevalereskModel.Store.incrementerQuantitePanier" />
+    <FunctionImportMapping FunctionImportName="decrementQuantitePanier" FunctionName="ChevalereskModel.Store.decrementQuantitePanier" />
+    <FunctionImportMapping FunctionImportName="RetirerDuPanier" FunctionName="ChevalereskModel.Store.RetirerDuPanier" />
+    <FunctionImportMapping FunctionImportName="AcheterItemsDansPanier" FunctionName="ChevalereskModel.Store.AcheterItemsDansPanier" />
+    <FunctionImportMapping FunctionImportName="ConcocterPotion" FunctionName="ChevalereskModel.Store.ConcocterPotion" />
+    <FunctionImportMapping FunctionImportName="questionRandom" FunctionName="ChevalereskModel.Store.questionRandom">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ChevalereskModel.questionRandom_Result">
+          <ScalarProperty Name="enonce" ColumnName="enonce" />
+          <ScalarProperty Name="laReponse" ColumnName="laReponse" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="vérifierReponse" FunctionName="ChevalereskModel.Store.vérifierReponse" />
+    <FunctionImportMapping FunctionImportName="MonterAlchimiste" FunctionName="ChevalereskModel.Store.MonterAlchimiste" />
+    <FunctionImportMapping FunctionImportName="laisserUnCommentaire" FunctionName="ChevalereskModel.Store.laisserUnCommentaire" />
+    <FunctionImportMapping FunctionImportName="retirerCommentaire" FunctionName="ChevalereskModel.Store.retirerCommentaire" />
+    <FunctionImportMapping FunctionImportName="modifierProfile" FunctionName="ChevalereskModel.Store.modifierProfile" />
+    <FunctionImportMapping FunctionImportName="ajouterStatsEnigma" FunctionName="ChevalereskModel.Store.ajouterStatsEnigma" />
+    <FunctionImportMapping FunctionImportName="augmenterStatsEnigma" FunctionName="ChevalereskModel.Store.augmenterStatsEnigma" />
+    <EntitySetMapping Name="Arme">
+      <EntityTypeMapping TypeName="ChevalereskModel.Arme">
+        <MappingFragment StoreEntitySet="Arme">
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="genre" ColumnName="genre" />
+          <ScalarProperty Name="efficacite" ColumnName="efficacite" />
+          <ScalarProperty Name="idItem" ColumnName="idItem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Armure">
+      <EntityTypeMapping TypeName="ChevalereskModel.Armure">
+        <MappingFragment StoreEntitySet="Armure">
+          <ScalarProperty Name="taille" ColumnName="taille" />
+          <ScalarProperty Name="matiere" ColumnName="matiere" />
+          <ScalarProperty Name="idItem" ColumnName="idItem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="ChevalereskModel.Categories">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="nomCategorie" ColumnName="nomCategorie" />
+          <ScalarProperty Name="idCategories" ColumnName="idCategories" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Critique">
+      <EntityTypeMapping TypeName="ChevalereskModel.Critique">
+        <MappingFragment StoreEntitySet="Critique">
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="idJoueur" ColumnName="idJoueur" />
+          <ScalarProperty Name="nbEtoile" ColumnName="nbEtoile" />
+          <ScalarProperty Name="Commentaire" ColumnName="Commentaire" />
+          <ScalarProperty Name="idItem" ColumnName="idItem" />
+          <ScalarProperty Name="idCommentaire" ColumnName="idCommentaire" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="elements">
+      <EntityTypeMapping TypeName="ChevalereskModel.elements">
+        <MappingFragment StoreEntitySet="elements">
+          <ScalarProperty Name="typeElement" ColumnName="typeElement" />
+          <ScalarProperty Name="dangerosite" ColumnName="dangerosite" />
+          <ScalarProperty Name="rarete" ColumnName="rarete" />
+          <ScalarProperty Name="idItem" ColumnName="idItem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Items">
+      <EntityTypeMapping TypeName="ChevalereskModel.Items">
+        <MappingFragment StoreEntitySet="Items">
+          <ScalarProperty Name="flagDispo" ColumnName="flagDispo" />
+          <ScalarProperty Name="typeItem" ColumnName="typeItem" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+          <ScalarProperty Name="prix" ColumnName="prix" />
+          <ScalarProperty Name="qtStock" ColumnName="qtStock" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="idItem" ColumnName="idItem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Joueurs">
+      <EntityTypeMapping TypeName="ChevalereskModel.Joueurs">
+        <MappingFragment StoreEntitySet="Joueurs">
+          <ScalarProperty Name="Avatar" ColumnName="Avatar" />
+          <ScalarProperty Name="solde" ColumnName="solde" />
+          <ScalarProperty Name="estAlchimiste" ColumnName="estAlchimiste" />
+          <ScalarProperty Name="estAdmin" ColumnName="estAdmin" />
+          <ScalarProperty Name="mdp" ColumnName="mdp" />
+          <ScalarProperty Name="niveau" ColumnName="niveau" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="alias" ColumnName="alias" />
+          <ScalarProperty Name="idJoueur" ColumnName="idJoueur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Potion">
+      <EntityTypeMapping TypeName="ChevalereskModel.Potion">
+        <MappingFragment StoreEntitySet="Potion">
+          <ScalarProperty Name="typePotion" ColumnName="typePotion" />
+          <ScalarProperty Name="duree" ColumnName="duree" />
+          <ScalarProperty Name="effet" ColumnName="effet" />
+          <ScalarProperty Name="idItem" ColumnName="idItem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="potionConcocter">
+      <EntityTypeMapping TypeName="ChevalereskModel.potionConcocter">
+        <MappingFragment StoreEntitySet="potionConcocter">
+          <ScalarProperty Name="qtPotionConcocter" ColumnName="qtPotionConcocter" />
+          <ScalarProperty Name="idJoueur" ColumnName="idJoueur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="ChevalereskModel.Questions">
+        <MappingFragment StoreEntitySet="Questions">
+          <ScalarProperty Name="idCategorie" ColumnName="idCategorie" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="enonce" ColumnName="enonce" />
+          <ScalarProperty Name="idQuestion" ColumnName="idQuestion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reponses">
+      <EntityTypeMapping TypeName="ChevalereskModel.Reponses">
+        <MappingFragment StoreEntitySet="Reponses">
+          <ScalarProperty Name="idQuestion" ColumnName="idQuestion" />
+          <ScalarProperty Name="estBonne" ColumnName="estBonne" />
+          <ScalarProperty Name="laReponse" ColumnName="laReponse" />
+          <ScalarProperty Name="idReponse" ColumnName="idReponse" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="ChevalereskModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inventaire">
+      <EntityTypeMapping TypeName="ChevalereskModel.Inventaire">
+        <MappingFragment StoreEntitySet="Inventaire">
+          <ScalarProperty Name="qtInventaire" ColumnName="qtInventaire" />
+          <ScalarProperty Name="idItem" ColumnName="idItem" />
+          <ScalarProperty Name="idJoueur" ColumnName="idJoueur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Magasin">
+      <EntityTypeMapping TypeName="ChevalereskModel.Magasin">
+        <MappingFragment StoreEntitySet="Magasin">
+          <ScalarProperty Name="idItem" ColumnName="idItem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Panier">
+      <EntityTypeMapping TypeName="ChevalereskModel.Panier">
+        <MappingFragment StoreEntitySet="Panier">
+          <ScalarProperty Name="qtItemPanier" ColumnName="qtItemPanier" />
+          <ScalarProperty Name="idItem" ColumnName="idItem" />
+          <ScalarProperty Name="idJoueur" ColumnName="idJoueur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Recette">
+      <EntityTypeMapping TypeName="ChevalereskModel.Recette">
+        <MappingFragment StoreEntitySet="Recette">
+          <ScalarProperty Name="Element_idItem2" ColumnName="Element_idItem2" />
+          <ScalarProperty Name="qtElement" ColumnName="qtElement" />
+          <ScalarProperty Name="Element_idItem" ColumnName="Element_idItem" />
+          <ScalarProperty Name="Potions_idItem" ColumnName="Potions_idItem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Statistiques">
+      <EntityTypeMapping TypeName="ChevalereskModel.Statistiques">
+        <MappingFragment StoreEntitySet="Statistiques">
+          <ScalarProperty Name="nbQuestionEchoue" ColumnName="nbQuestionEchoue" />
+          <ScalarProperty Name="nbQuestionReussi" ColumnName="nbQuestionReussi" />
+          <ScalarProperty Name="idJoueur" ColumnName="idJoueur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatsQstScience">
+      <EntityTypeMapping TypeName="ChevalereskModel.StatsQstScience">
+        <MappingFragment StoreEntitySet="StatsQstScience">
+          <ScalarProperty Name="nbQuestionReussi" ColumnName="nbQuestionReussi" />
+          <ScalarProperty Name="idJoueur" ColumnName="idJoueur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\niick\\Desktop\\ASP\\Chevaleresk 1.1 (24-04-24)\\Chevaleresk\\Chevaleresk\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE38896-F887-49CC-B7EB-B1538F206B25}|Chevaleresk\\Chevaleresk.csproj|c:\\users\\niick\\desktop\\asp\\chevaleresk 1.1 (24-04-24)\\chevaleresk\\chevaleresk\\chevaleresk\\views\\market\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BE38896-F887-49CC-B7EB-B1538F206B25}|Chevaleresk\\Chevaleresk.csproj|solutionrelative:chevaleresk\\views\\market\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE38896-F887-49CC-B7EB-B1538F206B25}|Chevaleresk\\Chevaleresk.csproj|c:\\users\\niick\\desktop\\asp\\chevaleresk 1.1 (24-04-24)\\chevaleresk\\chevaleresk\\chevaleresk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1BE38896-F887-49CC-B7EB-B1538F206B25}|Chevaleresk\\Chevaleresk.csproj|solutionrelative:chevaleresk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\niick\\Desktop\\ASP\\Chevaleresk 1.1 (24-04-24)\\Chevaleresk\\Chevaleresk\\Chevaleresk\\Views\\Market\\Details.cshtml",
+              "RelativeDocumentMoniker": "Chevaleresk\\Views\\Market\\Details.cshtml",
+              "ToolTip": "C:\\Users\\niick\\Desktop\\ASP\\Chevaleresk 1.1 (24-04-24)\\Chevaleresk\\Chevaleresk\\Chevaleresk\\Views\\Market\\Details.cshtml",
+              "RelativeToolTip": "Chevaleresk\\Views\\Market\\Details.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFEAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T02:09:46.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\niick\\Desktop\\ASP\\Chevaleresk 1.1 (24-04-24)\\Chevaleresk\\Chevaleresk\\Chevaleresk\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Chevaleresk\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\niick\\Desktop\\ASP\\Chevaleresk 1.1 (24-04-24)\\Chevaleresk\\Chevaleresk\\Chevaleresk\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Chevaleresk\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T02:09:53.68Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
